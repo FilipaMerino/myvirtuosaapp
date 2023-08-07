@@ -48,7 +48,7 @@ const Louisa = () => {
               onSwipeMove>
               {images.map((image, index) => (
                 <div key={index}>
-                  <Image src={image} className="rounded-md" />
+                  <Image src={image} className="rounded-md" alt="Louisa"/>
                 </div>
               ))}
             </Carousel>
