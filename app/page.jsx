@@ -66,18 +66,18 @@ const HomePage = () => {
 
           <div className=" flex flex-col items-center md:flex lg:flex-row lg:justify-between">
             <ServiceCard
-              href="./services/management"
+              href="./services/businessManagement"
               title="Business Management"
               content="The process of organizing, planning, analyzing and implementing solutions for businesses to help achieve their goals."
             />
 
             <ServiceCard
-              href="./services/virtualassistant"
+              href="./services/virtualAssistant"
               title="Virtual Assistant"
               content="A remote assistant to help with administrative, technical and creative services for businesses, entrepreneurs or individuals."
             />
             <ServiceCard
-              href="./services/webdev"
+              href="/services/webDevelopment"
               title="Web Development"
               content="The process of designing a unique and personalized website to help
   promote brand awareness, sell products, services or other

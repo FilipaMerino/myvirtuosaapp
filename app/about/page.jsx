@@ -149,11 +149,11 @@ const AboutPage = () => {
       <div className="bg-[#f2f2ef5e] flex items-center my-auto">
         <div className="relative  flex-col items-start w-[35%] justify-center lg:h-[40rem] mx-20 hidden lg:flex lg:mb-20">
           <div className="relative z-10 bottom-3 left-40 transform -translate-y-16 group overflow-hidden">
-            <Image src={team3} className="w-64 rounded-md drop-shadow-lg z-0" />
+            <Image src={team3} className="w-64 rounded-md drop-shadow-lg z-0" alt="team" />
           </div>
 
           <div className="absolute top-80 z-10 group overflow-hidden">
-            <Image className="w-64 rounded-md drop-shadow-md z-0" src={team} />
+            <Image className="w-64 rounded-md drop-shadow-md z-0" src={team} alt="team" />
           </div>
         </div>
 
@@ -181,7 +181,7 @@ const AboutPage = () => {
                   <Image
                     src={LouisaPic}
                     className="transform hover:scale-105 transition-transform border"
-                  />
+                    alt="team"/>
                   {/* The semi-transparent overlay */}
                   <div className="overlay"></div>
                 </Link>
@@ -194,7 +194,7 @@ const AboutPage = () => {
                   <Image
                     src={filipa}
                     className="transform hover:scale-105 transition-transform"
-                  />
+                  alt="team"/>
                   {/* The semi-transparent overlay */}
                   <div className="overlay"></div>
                 </Link>

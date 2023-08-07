@@ -2,26 +2,143 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #ffffff;
+  color: #333333;
+}
+
+
+
+
+/* SERVICES
+
+*/
+.horizontalLineCard{
+  width: 100px;
+  height:2px;
+  border: 2px solid #fb653e;
+  border-radius: 10px;
+  /* margin-bottom: 15px; */
+
+  background-color: #fb653e;
+}
+
+
+/* FOOTER */
+
+.vertical_line {
+  border-left: 1px solid #ffffff;
+  height: 100px;
+  width: 1px;
+}
+
+
+.horizontalLineFooter{
+  height: 1px;
+  width: 300px;
+  border:1px solid #ffffff;
+}
+/* NEWSLETTER */
+
+
+
+.inputNewsletter {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(255, 255, 255, 0.071);
+  width: 230px;
+  border-radius: 3px 0px 0px 3px;
+
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 300;
+  box-shadow: 1px 3px 28px 0px rgba(0, 0, 0, 0.1);
+  height: 40px;
+  padding: 20px;
+}
+
+.newsletterButton {
+  display: flex;
+  align-items: center;
+  background-color: #fb653e;
+  border-radius: 0px 3px 3px 0px;
+  color: white;
+  height: 42px;
+  padding: 20px;
+
+}
+
+
+/* TEAM PAGE */
+
+.horizontalLineTeam{
+  width: 300px;
+  height:2px;
+  border: 2px solid #fb653e;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  background-color: #fb653e;
+}
+
+
+.verticalLineTeam{
+
+  height: 200px;
+  width: 1px;
+  border: 2px solid #fb653e;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  background-color: #fb653e;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency by changing the last value (0.3) */
+  opacity: 0; /* Initially set opacity to 0, so it's invisible until hovered */
+  transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect on opacity change */
+}
+
+
+.avatar:hover .overlay {
+  opacity: 1;
+}
+
+
+
+/* BLOG */
+.horizontalLineBlog{
+
+  border: 0.5px solid rgba(233, 236, 239, 10);;
+  border-radius: 10px;
+
+  background-color: #333333;
+
+}
+
+
+
+/* SERVICES - WEBDEV */
+
+.horizontalLineWebDev {
+  width: 400px;
+  height:2px;
+  border: 2px solid #fb653e;
+  border-radius: 10px;
+
+
+  background-color: #fb653e;
 }
