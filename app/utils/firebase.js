@@ -10,8 +10,10 @@ const firebaseConfig = {
   projectId: "virtuosaapp-7b48d",
   storageBucket: "virtuosaapp-7b48d.appspot.com",
   messagingSenderId: "885395260019",
-  appId: "1:885395260019:web:67bf041086b2d6a3a72006"
+  appId: "1:885395260019:web:67bf041086b2d6a3a72006",
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
+export const auth = getAuth(app);
