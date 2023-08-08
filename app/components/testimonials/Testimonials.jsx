@@ -66,7 +66,7 @@ const handleNext = () => {
                   }`}>
                   <div className="flex justify-center">
                       {/* image */}
-                      <img src={testimonial.img} alt="testimonial" className="w-32" />
+                      <img src={testimonial.img} alt="testimonial" className="w-24 lg:w-32" />
                   </div>
 
                   <div className="flex flex-col items-center">

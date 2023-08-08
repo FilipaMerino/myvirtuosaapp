@@ -64,7 +64,7 @@ const Filipa = () => {
 
 
 
-          <p className="text-md mx-10 lg:mx-0 my-2 text-justify">
+          <p className="text-md mx-10 lg:mx-0 my-2 text-start lg:text-justify">
             Filipa has a passion for psychology, photography, and design which
             give her a unique set of skills allowing her to bring a fresh
             perspective to every project she works on. Her knowledge of
