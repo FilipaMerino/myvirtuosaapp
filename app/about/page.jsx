@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import ValueCard from "../components/about/ValueCard";
 import Testimonials from "../components/testimonials/Testimonials"
+import subscribe from "../../public/images/subscribe.jpeg";
 import team from "../../public/images/team.jpeg";
-import team3 from "../../public/images/team3.jpeg";
 import filipa from "../../public/images/filipa.jpeg";
 import LouisaPic from "../../public/images/LouisaPic.jpeg";
 
@@ -150,7 +150,7 @@ const AboutPage = () => {
       <div className="bg-[#f2f2ef5e] flex items-center my-auto p-5">
         <div className="relative  flex-col items-start w-[35%] justify-center lg:h-[40rem] mx-20 hidden lg:flex lg:mb-20">
           <div className="relative z-10 bottom-3 left-40 transform -translate-y-16 group overflow-hidden">
-            <Image src={team3} className="w-64 rounded-md drop-shadow-lg z-0" alt="team" />
+            <Image src={subscribe} className="w-64 rounded-md drop-shadow-lg z-0" alt="team" />
           </div>
 
           <div className="absolute top-80 z-10 group overflow-hidden">

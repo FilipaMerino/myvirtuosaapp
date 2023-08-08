@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 
-import subscribe from '../../../public/images/subscribe.png'
+import subscribe from '../../../public/images/subscribe.jpeg'
 
 import Image from 'next/image'
 

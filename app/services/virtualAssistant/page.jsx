@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import calendar from "../../../public/images/calendar.jpeg"
 import client from "../../../public/images/client.png";
-import email from "../../../public/images/email.svg";
+import email from "../../../public/images/email.jpeg";
 import event from "../../../public/images/event.svg";
-import planner from "../../../public/images/planner.svg";
+import planner from "../../../public/images/planner.jpeg";
 
 
 // import socialmedia from "../../components/images/socialmedia.svg";

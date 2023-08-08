@@ -4,9 +4,9 @@ import Link from "next/link";
 
 import management from "../../../public/images/management.jpeg"
 import obmplan from "../../../public/images/obmplan.svg";
-import obmteam from "../../../public/images/obmteam.svg";
-import obmoperations from "../../../public/images/obmoperations.svg";
-import obmproject from "../../../public/images/obmproject.svg";
+import obmteam from "../../../public/images/obmteam.jpeg";
+import obmoperations from "../../../public/images/obmoperations.jpeg";
+import obmproject from "../../../public/images/obmproject.jpeg";
 import ebook from "../../../public/images/ebook.jpeg";
 import affordable from "../../../public/images/affordable.png";
 import knowledge from "../../../public/images/knowledge.png"
