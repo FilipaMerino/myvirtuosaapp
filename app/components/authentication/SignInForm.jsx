@@ -10,14 +10,14 @@ const SignInForm = () => {
   const { register, handleSubmit, reset } = useForm()
   const [user, loading, error] = useAuthState(auth)
 
+  console.log(user)
+
   async function handleLogin(data) {
-    console.log(data)
     login({
       email: data.email,
       password: data.password,
     })
     reset()
-    window.location.href = '/'
   }
 
   if (user) {

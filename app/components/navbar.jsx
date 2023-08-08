@@ -1,21 +1,18 @@
 'use client'
 
-import Link from "next/link";
-import { FiLogOut } from "react-icons/fi";
-import { RxHamburgerMenu } from "react-icons/rx";
+import Link from 'next/link'
+import { FiLogOut } from 'react-icons/fi'
+import { RxHamburgerMenu } from 'react-icons/rx'
+import { useLogout } from '../hooks/auth'
+import { useAuthState } from 'react-firebase-hooks/auth'
+import { auth } from '../lib/firebase'
 // import { useContext } from "react";
 // import { UserContext } from "../contexts/UserContext";
 // import { signOutUser } from "../../utils/firebase/firebase.utils"
 
 const Navbar = () => {
-  // const { currentUser, setCurrentUser } = useContext(UserContext);
-
-
-  // const signOutHandler = async () => {
-  //   await signOutUser();
-  //   setCurrentUser(null);
-
-  // }
+  const { logout, isLoading } = useLogout()
+  const [user, loading, error] = useAuthState(auth)
 
   return (
     <div>
@@ -25,13 +22,15 @@ const Navbar = () => {
             <div className="dropdown">
               <label
                 tabIndex={0}
-                className="btn btn-ghost text-white lg:hidden">
+                className="btn btn-ghost text-white lg:hidden"
+              >
                 <RxHamburgerMenu />
               </label>
 
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32">
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32"
+              >
                 <li>
                   <Link href="/about">About</Link>
                 </li>
@@ -42,8 +41,9 @@ const Navbar = () => {
                 <li>
                   <Link href="/blog">Blog</Link>
                 </li>
+
                 <li>
-                  <button type="button">
+                  <button type="button" onClick={logout}>
                     <Link href="./">
                       <strong>Log Out</strong>
                     </Link>
@@ -54,7 +54,8 @@ const Navbar = () => {
 
             <Link
               className="btn btn-ghost normal-case lg:text-lg text-md text-white"
-              href="/">
+              href="/"
+            >
               ADMIN VIRTUOSA
             </Link>
           </div>
@@ -72,23 +73,22 @@ const Navbar = () => {
                 <Link href="/blog">Blog</Link>
               </li>
               <li>
-                {/* {currentUser && ( */}
-                  <button type="button"
-                  //  onClick={signOutHandler}
-                  >
+                {user && (
+                  <button type="button" onClick={logout}>
                     <Link href="/">
                       <FiLogOut />
                     </Link>
                   </button>
-                {/* )} */}
+                )}
 
+                {/* )} */}
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
