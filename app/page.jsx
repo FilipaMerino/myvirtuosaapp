@@ -17,7 +17,7 @@ import blogBackSquare from "../public/images/blogBackSquare.png"
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Banner />
 
       {/* THIS IS THE ABOUT SESSION FROM THE HOME PAGE */}

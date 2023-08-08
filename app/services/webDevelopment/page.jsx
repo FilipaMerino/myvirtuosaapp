@@ -12,7 +12,7 @@ import SEO from "../../../public/images/SEO.svg";
 
 const WebDev = () => {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       {/* BANNER */}
       <div className="flex items-center relative h-[35rem]">
         <Image src={dev} layout="fill" objectFit="cover" alt="banner"></Image>

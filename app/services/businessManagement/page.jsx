@@ -20,7 +20,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const BusinessManagement = () => {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       {/* BANNER */}
       <div className="flex items-center relative h-[35rem]">
         <Image

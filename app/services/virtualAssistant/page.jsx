@@ -13,7 +13,7 @@ const VirtualAssistant = () => {
   return (
     <div>
       {/* BANNER */}
-      <div className="flex items-center relative h-[35rem]">
+      <div className="flex items-center relative h-[35rem] overflow-hidden">
         <Image
           src={calendar}
           layout="fill"
