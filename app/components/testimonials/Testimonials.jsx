@@ -43,20 +43,20 @@ const handleNext = () => {
 };
 
   return (
-    <div className="flex items-center lg:h-[30rem] mx-20">
+    <div className="flex flex-col lg:flex-row items-center lg:h-[30rem] p-10 lg:mx-20">
 
       {/* Testimonials Header */}
-      <div className="flex-none w-2/5 lg:mr-20 flex flex-col items-center lg:items-start my-10 p-5 lg:my-0 lx:p-0">
+      <div className="flex-none lg:w-2/5 lg:mr-20 flex flex-col items-center lg:items-start my-10 p-5 lg:my-0 lx:p-0">
         <h1 className="text-3xl lg:text-5xl mb-3">Testimonials</h1>
         <hr className="horizontalLineWebDev my-5 hidden lg:block"></hr>
-        <p className="text-md md:text-lg mb-3 text-center lg:text-start">
+        <p className=" mb-3 text-center lg:text-start">
           Our customers are at the heart of everything we do. Their satisfaction isn&rsquo;t just a goal, it&rsquo;s our measure of success. Here&rsquo;s what some of our valued customers have to say about their experiences with us.
         </p>
         {user && <CreateTestimonial />}
       </div>
 
       {/* Carousel */}
-      <div className="flex-none w-[55%] flex flex-col ">
+      <div className="flex-none lg:w-[55%] flex flex-col ">
           <div className="carousel">
               {testimonials.map((testimonial, index) => (
                   <div
@@ -81,19 +81,19 @@ const handleNext = () => {
                       <div className="flex">
                       <button
                           onClick={handlePrevious}
-                          className="btn btn-circle  bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none">
+                          className="btn btn-circle  bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none w-[20px] md:w-[50px]">
                           ❮
                       </button>
 
                       <div>
-                          <p className="text-sm italic lg:mx-20 text-center">
+                          <p className="text-sm italic mx-10 lg:mx-20 text-center">
                           {testimonial.testimonial}
                           </p>
                       </div>
 
                       <button
                           onClick={handleNext}
-                          className="btn btn-circle bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none">
+                          className="btn btn-circle bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none w-[20px] md:w-[50px]">
                           ❯
                       </button>
                       </div>

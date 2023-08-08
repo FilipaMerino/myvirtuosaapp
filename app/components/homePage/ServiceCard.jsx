@@ -14,7 +14,7 @@ const ServiceCard = ({ title, content, href }) => {
             <span>Learn More</span>
             <FontAwesomeIcon
               icon={faArrowRight}
-              className="text-sm md:w-2 ml-2"
+              className="w-2 ml-2"
             />
           </div>
         </div>

@@ -71,7 +71,7 @@ const AboutPage = () => {
             <h1 className="text-3xl lg:text-5xl text-[#fb653e] ml-3">Us.</h1>
           </div>
 
-          <hr className="horizontalLineCard block  lg:hidden"></hr>
+          <hr className="horizontalLineCard block  lg:hidden my-5"></hr>
 
           <p className="mb-5">
             At Admin Virtuosa, our mission is to serve as a{" "}
@@ -113,12 +113,15 @@ const AboutPage = () => {
 
       {/* HERE IS THE VALUES */}
 
-      <div className="flex flex-col lg:flex-row lg:h-[30rem] md:mx-20 justify-around">
-        <div className="flex items-center justify-center mt-10">
+      <div className="flex flex-col lg:flex-row lg:h-[30rem] md:mx-20 justify-around p-10">
+        <div className="flex items-center justify-center lg:mt-10">
           <h1 className="text-3xl lg:text-5xl">Our</h1>
           <h1 className="text-3xl lg:text-5xl ml-2 text-[#fb653e]">Values.</h1>
         </div>
 
+        <div className="flex justify-center mb-10 mt-5">
+          <hr className="horizontalLineCard block  lg:hidden"></hr>
+        </div>
         <div className="carousel w-[100%] lg:w-[50%] flex">
           <div className="carousel-item relative w-full">
             <ValueCard
@@ -128,12 +131,12 @@ const AboutPage = () => {
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 ">
               <button
                 onClick={handlePrevious}
-                className="btn btn-circle bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none">
+                className="btn btn-circle bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none w-[20px] md:w-[50px]">
                 ❮
               </button>
               <button
                 onClick={handleNext}
-                className="btn btn-circle bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none">
+                className="btn btn-circle bg-[#f2f2f2]  text-[#333333] hover:bg-[#e0e0e0] border-none w-[20px] md:w-[50px]">
                 ❯
               </button>
             </div>
@@ -144,7 +147,7 @@ const AboutPage = () => {
 
       {/* {/* THIS IS THE TEAM SESSION */}
 
-      <div className="bg-[#f2f2ef5e] flex items-center my-auto">
+      <div className="bg-[#f2f2ef5e] flex items-center my-auto p-5">
         <div className="relative  flex-col items-start w-[35%] justify-center lg:h-[40rem] mx-20 hidden lg:flex lg:mb-20">
           <div className="relative z-10 bottom-3 left-40 transform -translate-y-16 group overflow-hidden">
             <Image src={team3} className="w-64 rounded-md drop-shadow-lg z-0" alt="team" />
@@ -205,7 +208,6 @@ const AboutPage = () => {
       {/* TESTIMONIALS SESSION */}
 
       <div>
-        {/* <Testimonials /> */}
         <Testimonials/>
       </div>
     </div>

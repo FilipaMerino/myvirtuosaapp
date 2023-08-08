@@ -93,7 +93,7 @@ const Newsletter = () => {
                 >
                   <div>
                     <input
-                      className="input drop-shadow-md w-full text-center md:text-start"
+                      className="input drop-shadow-md w-full text-center md:text-start bg-white"
                       id="ff-64c9882f7e6b513e5baccb16-firstName"
                       type="text"
                       maxlength="255"
@@ -105,7 +105,7 @@ const Newsletter = () => {
 
                   <div>
                     <input
-                      className="input drop-shadow-md w-full text-center md:text-start"
+                      className="input drop-shadow-md w-full text-center md:text-start bg-white"
                       id="ff-64c9882f7e6b513e5baccb16-email"
                       type="text"
                       maxlength="255"
@@ -118,7 +118,7 @@ const Newsletter = () => {
 
                   <div data-ff-el="footer">
                     <button
-                      className="btn bg-[#fb653e] text-white w-full drop-shadow-md hover:bg-[#333333] hover:text-white"
+                      className="btn bg-[#fb653e] border-none text-white w-full drop-shadow-md hover:bg-[#333333] hover:text-white"
                       type="submit"
                       data-ff-el="submit"
                       data-ff-tab="submit"
