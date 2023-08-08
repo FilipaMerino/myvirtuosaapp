@@ -38,12 +38,12 @@ const SignInForm = () => {
           <input
             type="email"
             {...register('email')}
-            className="input input-bordered mb-5 text-white"
+            className="input input-bordered mb-5 text-black"
           />
           <input
             type="password"
             {...register('password')}
-            className="input input-bordered mb-5 text-white"
+            className="input input-bordered mb-5 text-black"
           />
 
           <input

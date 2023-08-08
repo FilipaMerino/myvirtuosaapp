@@ -7,7 +7,10 @@ import {
   query,
   setDoc,
   updateDoc,
+  deleteDoc
 } from "firebase/firestore";
+
+
 
 import { uuidv4 } from "@firebase/util";
 import { db } from "../lib/firebase";
@@ -42,4 +45,23 @@ export function usePosts() {
   const [posts, isLoading, error] = useCollectionData(q);
   if (error) throw error;
   return { posts, isLoading };
+}
+
+//Delete Post
+
+export function useDeletePost() {
+  const [isLoading, setLoading] = useState(false);
+
+  async function deletePost(id) {
+    const res = window.confirm("Are you sure you want to delete this post?");
+    if (res) {
+
+      setLoading(true);
+      await deleteDoc(doc(db, "posts", id));
+      setLoading(false);
+
+    }
+  }
+
+  return {deletePost, isLoading}
 }
