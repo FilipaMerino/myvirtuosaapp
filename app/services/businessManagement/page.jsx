@@ -35,7 +35,9 @@ const BusinessManagement = () => {
           <h1 className="text-3xl md:text-5xl text-white mb-5 lg:w-[30rem] font-bold md:font-extrabold">
             Business Planning
           </h1>
-          <hr className="horizontalLineWebDev"></hr>
+          
+          <hr className="horizontalLineWebDev w-[18rem] hidden md:block"></hr>
+          <hr className="horizontalLineWebDev2 w-[18rem] block md:hidden"></hr>
 
           <h1 className="text-white text-xl lg:text-4xl lg:w-[50rem] md:text-4xl lg:mr-[30rem] mt-5">
             We create simple, effective business plans that help your company

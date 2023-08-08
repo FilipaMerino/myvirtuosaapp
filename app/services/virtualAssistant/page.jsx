@@ -27,7 +27,8 @@ const VirtualAssistant = () => {
             Administrative Services
           </h1>
 
-          <hr className="horizontalLineWebDev w-[18rem]"></hr>
+          <hr className="horizontalLineWebDev w-[18rem] hidden md:block"></hr>
+          <hr className="horizontalLineWebDev2 w-[18rem] block md:hidden"></hr>
 
           <h1 className="text-white text-xl md:text-4xl  w-[20rem] lg:w-[40rem] lg:mr-[30rem] mt-5">
             From tedious administrative tasks to content creation, together we
