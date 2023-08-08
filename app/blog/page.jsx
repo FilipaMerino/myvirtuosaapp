@@ -12,16 +12,10 @@ const Blog = () => {
   if (loading) return <Spinner />
 
   return (
-    <div className='mt-o'>
+    <div className='mt-0'>
       <Posts />
     </div>
   )
 }
 
 export default Blog
-
-
-
-
-
-

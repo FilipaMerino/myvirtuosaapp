@@ -3,10 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-// import Testimonials from "../components/testimonials/Testimonials";
 import ValueCard from "../components/about/ValueCard";
-
+import Testimonials from "../components/testimonials/Testimonials"
 import team from "../../public/images/team.jpeg";
 import team3 from "../../public/images/team3.jpeg";
 import filipa from "../../public/images/filipa.jpeg";
@@ -208,6 +206,7 @@ const AboutPage = () => {
 
       <div>
         {/* <Testimonials /> */}
+        <Testimonials/>
       </div>
     </div>
   );
