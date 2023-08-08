@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { BsTrash3Fill } from "react-icons/bs";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { useAuthState } from "react-firebase-hooks/auth";
-import Image from "next/image"
 import { auth } from "@/app/lib/firebase";
 
 const Posts = () => {
@@ -38,7 +37,7 @@ const Posts = () => {
             </h3>
 
             <Link href={`/blog/${post.id}`}>
-              <Image src={post.img} alt="post" className="hover:brightness-90 transition-all duration-200 w-[40rem] mb-5 rounded"/>
+              <img src={post.img} alt="post" className="hover:brightness-90 transition-all duration-200 w-[40rem] mb-5 rounded"/>
             </Link>
             <div className="">
               <p className="text-sm mb-5 text-justify">
