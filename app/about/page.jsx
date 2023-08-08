@@ -148,7 +148,7 @@ const AboutPage = () => {
       {/* {/* THIS IS THE TEAM SESSION */}
 
       <div className="bg-[#f2f2ef5e] flex items-center my-auto p-5">
-        <div className="relative  flex-col items-start w-[35%] justify-center lg:h-[40rem] mx-20 hidden lg:flex lg:mb-20">
+        <div className="relative  flex-col items-start w-[35%] justify-center lg:h-[40rem] mx-5 lg:mx-20 hidden lg:flex lg:mb-20">
           <div className="relative z-10 bottom-3 left-40 transform -translate-y-16 group overflow-hidden">
             <Image src={subscribe} className="w-64 rounded-md drop-shadow-lg z-0" alt="team" />
           </div>
@@ -166,7 +166,7 @@ const AboutPage = () => {
             </h1>
           </div>
 
-          <div className=" text-center lg:text-start mx-5 p-5 flex flex-col items-center lg:items-start lg:mx-0 lg:p-0">
+          <div className=" text-center lg:text-start mt-3 lg:mt-0  p-2flex flex-col items-center lg:items-start lg:p-0">
             <p className="">
               We&apos;re a group of dedicated professionals, each with unique skills
               and experiences. Together, we work to deliver top-notch services

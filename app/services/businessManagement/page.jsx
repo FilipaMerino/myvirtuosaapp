@@ -35,7 +35,7 @@ const BusinessManagement = () => {
           <h1 className="text-3xl md:text-5xl text-white mb-5 lg:w-[30rem] font-bold md:font-extrabold">
             Business Planning
           </h1>
-          
+
           <hr className="horizontalLineWebDev w-[18rem] hidden md:block"></hr>
           <hr className="horizontalLineWebDev2 w-[18rem] block md:hidden"></hr>
 
@@ -55,7 +55,7 @@ const BusinessManagement = () => {
           </div>
 
           <div>
-            <p className="text-lg lg:w-[25rem] mx-20 my-10 text-center lg:my-0">
+            <p className="text-lg lg:w-[25rem] mx-5 lg:mx-20 my-10 text-center lg:my-0">
               We organize, plan, analyze and implement solutions for businesses
               to help them achieve their goals.
             </p>
