@@ -89,7 +89,7 @@ const Filipa = () => {
       </div>
 
       <div className="bg-white relative ">
-        <div className="lg:mx-20 h-[30rem] lg:h-[20rem]  flex items-center  ">
+        <div className="lg:mx-20 lg:h-[20rem]  flex items-center  ">
           <div className="absolute top-10 left-40 hidden lg:flex">
             <Image src={quotes1} className="w-32" alt="quotes"/>
           </div>

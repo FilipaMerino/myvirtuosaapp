@@ -80,7 +80,7 @@ const Louisa = () => {
         <hr className="verticalLineTeam ml-10 hidden lg:block"></hr>
 
         <div className="p-10 flex flex-col items-center justify-center ">
-        <div className="flex lg:flex-col justify-center items-center mb-5">
+        <div className="flex lg:flex-col justify-center items-center lg:mb-5">
             <Image src={degree} className="w-[20%] lg:w-[30%] mr-5 mb-3" alt="degree"/>
             <p className="text-sm text-center">Degree in Administration</p>
           </div>
@@ -91,8 +91,8 @@ const Louisa = () => {
         </div>
       </div>
 
-      <div className="bg-white relative ">
-      <div className="lg:mx-20 h-[30rem] lg:h-[20rem]  flex items-center  ">
+      <div className="bg-white lg:relative ">
+      <div className="lg:mx-20 lg:h-[20rem]  flex items-center  ">
           <div className="absolute top-10 left-40 hidden lg:block">
             <Image src={quotes1} className="w-32" alt="quotes"/>
           </div>
