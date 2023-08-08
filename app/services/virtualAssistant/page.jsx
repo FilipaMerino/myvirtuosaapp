@@ -11,7 +11,7 @@ import planner from "../../../public/images/planner.jpeg";
 
 const VirtualAssistant = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* BANNER */}
       <div className="flex items-center relative h-[35rem] overflow-hidden">
         <Image
@@ -23,13 +23,13 @@ const VirtualAssistant = () => {
 
         <div className="flex mx-5 md:mx-10 flex-col p-5 absolute">
           <h3 className="lg:text-lg mb-5 text-white">Virtual Assistant</h3>
-          <h1 className="text-3xl md:text-5xl text-white mb-5 lg:w-[30rem] font-bold md:font-extrabold">
+          <h1 className="text-3xl md:text-5xl text-white mb-5 w-[20rem] lg:w-[30rem] font-bold md:font-extrabold">
             Administrative Services
           </h1>
 
-          <hr className="horizontalLineWebDev"></hr>
+          <hr className="horizontalLineWebDev w-[18rem]"></hr>
 
-          <h1 className="text-white text-xl md:text-4xl lg:w-[40rem] lg:mr-[30rem] mt-5">
+          <h1 className="text-white text-xl md:text-4xl  w-[20rem] lg:w-[40rem] lg:mr-[30rem] mt-5">
             From tedious administrative tasks to content creation, together we
             create a system of success and growth.
           </h1>

@@ -24,9 +24,10 @@ const WebDev = () => {
             Website Creation
           </h1>
 
-          <hr className="horizontalLineWebDev"></hr>
+          <hr className="horizontalLineWebDev w-[18rem] hidden md:block"></hr>
+          <hr className="horizontalLineWebDev2 w-[18rem] block md:hidden"></hr>
 
-          <h1 className="text-white text-xl md:text-4xl lg:w-[40rem] lg:mr-[30rem] mt-5">
+          <h1 className="w-[20rem] text-white text-xl md:text-4xl lg:w-[40rem] lg:mr-[30rem] mt-5">
             We design awesome websites that bring growth to your businesses.
           </h1>
         </div>
@@ -40,7 +41,7 @@ const WebDev = () => {
           </div>
 
           <div>
-            <p className="text-lg lg:w-[25rem] mx-20 my-10 text-center lg:my-0">
+            <p className="text-lg lg:w-[25rem] mx-5 lg:mx-20 my-10 text-center lg:my-0">
               Our team will design you a powerful website optimized to drive
               engagement and transform visitors into loyal customers.
             </p>
@@ -54,7 +55,7 @@ const WebDev = () => {
           <hr className="horizontalLineCard"></hr>
         </div>
 
-        <div className="lg:h-[30rem] mt-0 flex flex-col justify-center mx-20 ">
+        <div className="lg:h-[30rem] mt-0 flex flex-col justify-center mx-10 lg:mx-20 ">
           <div className="flex justify-center mb-3  lg:mb-5">
             <h1 className="text-3xl lg:text-5xl">Our</h1>
             <h1 className="text-[#fb653e] text-3xl lg:text-5xl ml-3">
@@ -150,7 +151,7 @@ const WebDev = () => {
             <h5 className="text-xl lg:text-md text-center mb-3 lg:mb-0">
               Responsive
             </h5>
-            <p className="text-xs w-96 lg:w-[90%] text-center lg:mt-3">
+            <p className="text-xs w-82 lg:w-[90%] text-center lg:mt-3 mx-5 lg:mx-0">
               Web design is all about flexibility and adaptability. Imagine a
               website that automatically scales, resizes, and alters its layout
               to look perfect on any device.
@@ -162,7 +163,7 @@ const WebDev = () => {
             <h5 className="text-xl lg:text-md text-center mb-3 lg:mb-0">
               Optimized for Search Engines
             </h5>
-            <p className="text-xs w-96 lg:w-[70%] text-center lg:mt-3 ">
+            <p className="text-xs w-82 lg:w-[70%] text-center lg:mt-3 ">
               We will make it easier for potential customers to find you.
             </p>
           </div>

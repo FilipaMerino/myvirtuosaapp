@@ -24,7 +24,7 @@ const Posts = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-10">
+    <div className="flex flex-col items-center p-10 mx-10 overflow-hidden">
       {/* (user && (<CreatePost />)) */}
 
       <div className="mb-10">{user && <CreatePost />}</div>
@@ -32,7 +32,7 @@ const Posts = () => {
       {posts.map((post) => (
         <div className="mb-10" key={post.id}>
           <div className=" flex flex-col items-center w-[30rem] lg:w-[40rem] lg:mb-10">
-            <h3 className="text-xl lg:text-3xl mb-10 text-center">
+            <h3 className="text-xl lg:text-3xl mb-10 text-center w-64 lg:w-full">
               {post.title}
             </h3>
 
@@ -40,7 +40,7 @@ const Posts = () => {
               <img src={post.img} alt="post" className="hover:brightness-90 transition-all duration-200 w-[40rem] mb-5 rounded-lg"/>
             </Link>
             <div className="">
-              <p className="text-sm mb-5 text-justify">
+              <p className="text-sm mb-5 text-justify w-64 lg:w-full">
                 {post.content.substring(0, 180) + "..."}
               </p>
 
