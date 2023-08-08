@@ -40,7 +40,7 @@ const Posts = () => {
               <img src={post.img} alt="post" className="hover:brightness-90 transition-all duration-200 w-[40rem] mb-5 rounded-lg"/>
             </Link>
             <div className="">
-              <p className="text-sm mb-5 text-justify w-64 lg:w-full">
+              <p className="text-sm mb-5 text-justify w-72">
                 {post.content.substring(0, 180) + "..."}
               </p>
 
