@@ -3,7 +3,7 @@
 
 import CreatePost from '@/app/post/createPost/page'
 
-import { usePosts } from '@/app/hooks/posts'
+import { usePosts, useDeletePost } from '@/app/hooks/posts'
 import React from 'react'
 import Spinner from '../Spinner'
 import Link from "next/link"
@@ -11,9 +11,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { BsTrash3Fill } from "react-icons/bs";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+
+
+
+
+
+
 const Posts = () => {
-  const { posts, isLoading } = usePosts()
-  if (isLoading) return <Spinner />
+  const { posts, isLoading:postsIsLoading } = usePosts()
+  const { deletePost, isLoading:deletePostsLoading } = useDeletePost();
+
+  if (postsIsLoading) return <Spinner />
+
+
+  const handleDeleteClick = (id) => {
+    deletePost(id);
+  }
+
+
 
 
   return (
@@ -74,7 +89,7 @@ const Posts = () => {
 
                 {/* {currentUser && ( */}
               <button
-              //  onClick={() => deletePost(post.id)}
+              onClick={() => handleDeleteClick(post.id)}
                >
                 <BsTrash3Fill className="hover:text-[#fb653e]" />
               </button>
