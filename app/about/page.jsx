@@ -105,9 +105,9 @@ const AboutPage = () => {
 
         <div className="flex flex-col   text-[#333333] text-center mx-4 p-5 lg:mx-[10rem]">
           <h1 className="text-lg lg:text-3xl mb-3 lg:mb-5 italic">
-            "Success is the ability to live your life the way you want to live
+          &quot;Success is the ability to live your life the way you want to live
             it, doing what you most enjoy, surrounded by people who you admire
-            and respect."
+            and respect.&quot;
           </h1>
           <p className="text-sm lg:text-lg">Brian Tracy</p>
         </div>
@@ -167,10 +167,10 @@ const AboutPage = () => {
 
           <div className=" text-center lg:text-start mx-5 p-5 flex flex-col items-center lg:items-start lg:mx-0 lg:p-0">
             <p className="">
-              We're a group of dedicated professionals, each with unique skills
+              We&apos;re a group of dedicated professionals, each with unique skills
               and experiences. Together, we work to deliver top-notch services
               that make a real difference. Our shared passion for helping
-              businesses grow is what unites us. We're here to support you and
+              businesses grow is what unites us. We&apos;re here to support you and
               your vision.
             </p>
           </div>

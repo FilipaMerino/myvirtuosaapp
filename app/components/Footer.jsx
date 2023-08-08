@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="flex flex-col  my-auto">
         <a href="https://hello.dubsado.com/public/form/view/62435fd047bf3990e0a4af23">
           <h1 className="text-2xl text-[#ffffff] hover:text-[#333333]">
-            Let's Chat!
+            Let&apos;s Chat!
           </h1>
 
 

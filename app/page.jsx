@@ -108,7 +108,7 @@ const HomePage = () => {
                 business that
               </h1>
               <h1 className="text-3xl md:text-5xl text-[#fb653e] ml-2">
-                doesn't drain you.
+                doesn&apos;t drain you.
               </h1>
             </div>
           </div>
@@ -119,7 +119,7 @@ const HomePage = () => {
             </h1>
             <h1 className="text-3xl md:text-5xl text-[#fb653e] italic">
               {" "}
-              doesn't drain you.
+              doesn&apos;t drain you.
             </h1>
           </div>
 
@@ -127,12 +127,12 @@ const HomePage = () => {
             <p className=" mt-5 md:mt-10 text-md text-justify">
               We often forget that our work should be something that sparks joy,
               right? You absolutely deserve a life and a business that lifts you
-              up, rather than drains you. Life's too short to feel constantly
-              exhausted or overwhelmed. Picture a business that's in sync with
+              up, rather than drains you. Life&apos;s too short to feel constantly
+              exhausted or overwhelmed. Picture a business that&apos;s in sync with
               your life, one that values your happiness just as much as your
               success. Imagine a life where you wake up every morning excited
-              and inspired. Sounds nice, doesn't it? This is what you're meant
-              to have, this is what you deserve. Let's take this journey
+              and inspired. Sounds nice, doesn&apos;t it? This is what you&apos;re meant
+              to have, this is what you deserve. Let&apos;s take this journey
               together, realigning our work with what truly matters.
             </p>
           </div>
@@ -153,9 +153,9 @@ const HomePage = () => {
 
           <p className=" md:mb-5 text-justify">
             Our blog is more than just a place for us to share our thoughts.
-            It's a platform for us to connect, and grow together. Here you will
+            It&apos;s a platform for us to connect, and grow together. Here you will
             find insightful articles, and helpful tips to run your business
-            strategically. Start reading today and let's grow your business and
+            strategically. Start reading today and let&apos;s grow your business and
             knowledge together!
           </p>
 

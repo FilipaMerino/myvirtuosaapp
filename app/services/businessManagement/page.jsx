@@ -121,7 +121,7 @@ const BusinessManagement = () => {
               approach, we assist in maximizing the potential of your team,
               ensuring everyone collaborates effectively towards your business
               goals. Let us manage your team, so you can concentrate on leading
-              your business to success. Don't have a team and looking to build
+              your business to success. Don&apos;t have a team and looking to build
               one? This service can be tailored to hiring and building your
               business.
             </p>
@@ -160,7 +160,7 @@ const BusinessManagement = () => {
                 <hr className="horizontalLineCard mb-3"></hr>
               </div>
             <p className="text-sm lg:text-lg lg:mt-10 text-center lg:text-start">
-              In today's fast-paced business environment, efficient operations
+              In today&apos;s fast-paced business environment, efficient operations
               are vital. Our operations management services focus on improving
               your internal processes and workflow for increased productivity
               and efficiency. We oversee daily business activities, fine-tuning
@@ -191,7 +191,7 @@ const BusinessManagement = () => {
               </div>
 
             <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start">
-              Your business deserves personalized attention, and that's exactly
+              Your business deserves personalized attention, and that&apos;s exactly
               what we provide with our 1:1 consulting service. We engage with
               you directly, understanding your unique challenges and
               opportunities. Together, we create actionable strategies designed
@@ -259,8 +259,8 @@ const BusinessManagement = () => {
               These services are designed to equip you with the essential tools
               and guidance you need to effectively manage and grow your business
               at your own pace. Our DIY services are not just cost-effective;
-              they're an <strong>investment into your business's future</strong>
-              . Whether it's planning for your next quarter with our{" "}
+              they&apos;re an <strong>investment into your business&apos;s future</strong>
+              . Whether it&apos;s planning for your next quarter with our{" "}
               <strong>Roadmap to Success</strong> or streamlining your
               operations with our <strong>SOP QuickStart</strong>, our
               budget-friendly options are dedicated to supporting your journey
@@ -290,7 +290,7 @@ const BusinessManagement = () => {
                 <hr className="horizontalLineCard mt-3"></hr>
               </div>
               <p className="text-sm text-center lg:text-justify my-3 lg:w-[90%] mx-10">
-                Planning is key to any business's success, and with our Roadmap
+                Planning is key to any business&apos;s success, and with our Roadmap
                 to Success, we make it easy and budget-friendly. This
                 do-it-yourself service provides a comprehensive 90-day planning
                 report, offering a clear and actionable strategy to help you
@@ -332,7 +332,7 @@ const BusinessManagement = () => {
                 successful operation, providing consistency, clarity, and
                 efficiency. This service provides you with comprehensive
                 guidance on how to establish effective SOPs in your business.
-                You'll receive expert advice, practical steps, and templates
+                You&apos;ll receive expert advice, practical steps, and templates
                 that streamline the SOP creation process.
               </p>
             </div>

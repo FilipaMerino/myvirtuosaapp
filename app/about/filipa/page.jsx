@@ -94,8 +94,8 @@ const Filipa = () => {
             <Image src={quotes1} className="w-32" alt="quotes"/>
           </div>
           <h1 className="text-xl lg:text-3xl mb-3 lg:mb-5 italic text-center mx-10 lg:mx-64">
-            "I embrace each line of code with care, knowing it shapes
-            experiences and bridges connections."
+          &quot;I embrace each line of code with care, knowing it shapes
+            experiences and bridges connections.&quot;
           </h1>
           <div className="absolute bottom-10 right-40 hidden lg:flex">
             <Image src={quotes2} className="w-32" alt="quotes"/>

@@ -74,7 +74,7 @@ const Newsletter = () => {
 
           <div className="lg:w-[44rem]">
             <p className="mb-10" data-paragraph="true">
-              You don't have to “entrepreneur” on your own. For tips and
+              You don&apos;t have to “entrepreneur” on your own. For tips and
               personal stories on how to make sure your business is running
               flawlessly enter your name and email below.
             </p>

@@ -64,7 +64,7 @@ const WebDev = () => {
 
           <div className="flex justify-center">
             <p className="text-center lg:mb-5">
-              We are trying to make it as simple as possible. We don't believe
+              We are trying to make it as simple as possible. We don&apos;t believe
               in complex.
             </p>
           </div>
