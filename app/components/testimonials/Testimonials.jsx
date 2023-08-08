@@ -50,7 +50,7 @@ const handleNext = () => {
         <h1 className="text-3xl lg:text-5xl mb-3">Testimonials</h1>
         <hr className="horizontalLineWebDev my-5 hidden lg:block"></hr>
         <p className="text-md md:text-lg mb-3 text-center lg:text-start">
-          Our customers are at the heart of everything we do. Their satisfaction isn't just a goal, it's our measure of success. Here's what some of our valued customers have to say about their experiences with us.
+          Our customers are at the heart of everything we do. Their satisfaction isn&rsquo;t just a goal, it&rsquo;s our measure of success. Here&rsquo;s what some of our valued customers have to say about their experiences with us.
         </p>
         {user && <CreateTestimonial />}
       </div>

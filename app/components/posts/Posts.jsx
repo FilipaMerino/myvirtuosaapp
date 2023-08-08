@@ -1,6 +1,6 @@
 "use client";
 
-import CreatePost from "@/app/post/createPost/page";
+import CreatePost from "./CreatePost";
 
 import { usePosts, useDeletePost } from "@/app/hooks/posts";
 import React from "react";
