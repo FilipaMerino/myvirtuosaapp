@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className="footer p-10 bg-[#fb653e] text-neutral-content md:flex md:justify-around md:items-center sticky">
       <div className=" w-full md:w-[13rem] flex justify-center items-center">
         <div className="flex justify-center md:justify-start">
-          <Image src={logo} alt="Logo" className="w-[10rem] md:w-[30rem]" />
+          <Image src={logo} alt="Logo Admin" className="w-[10rem] md:w-[30rem]" />
         </div>
         <div className="vertical_line ml-5 md:ml-20 hidden md:block"></div>
       </div>
