@@ -197,7 +197,18 @@ const AboutPage = () => {
               </div>
             </div>
 
-           
+            <div className="avatar relative ml-5">
+              <div className="w-32 lg:w-20 rounded ">
+                <Link href="./about/filipa">
+                  <Image
+                    src={filipa}
+                    className="transform hover:scale-105 transition-transform"
+                  alt="team"/>
+                  {/* The semi-transparent overlay */}
+                  <div className="overlay"></div>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
