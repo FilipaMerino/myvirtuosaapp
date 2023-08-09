@@ -4,9 +4,8 @@ import Link from "next/link";
 
 import logo from "../../public/images/logo.png";
 
-import {BsInstagram} from "react-icons/Bs"
-import {FaFacebookSquare} from "react-icons/Fa"
-import {FaLinkedin} from "react-icons/Fa"
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
