@@ -72,12 +72,11 @@ const Newsletter = () => {
             </h1>
           </div>
 
-          <div className="lg:w-[44rem]">
-            <p className="mb-10" data-paragraph="true">
-              You don&apos;t have to “entrepreneur” on your own. For tips and
-              personal stories on how to make sure your business is running
-              flawlessly enter your name and email below.
+          <div className="lg:w-[44rem] mb-10">
+            <p className="" data-paragraph="true">
+              Stay connected by subscribing to our newsletter.
             </p>
+            <p className='text-sm'>We respect your inbox and we promise not to spam you.</p>
           </div>
 
           <div className="">

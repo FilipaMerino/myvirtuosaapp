@@ -55,9 +55,8 @@ const BusinessManagement = () => {
           </div>
 
           <div>
-            <p className="text-lg lg:w-[25rem] mx-5 lg:mx-20 my-10 text-center lg:my-0">
-              We organize, plan, analyze and implement solutions for businesses
-              to help them achieve their goals.
+            <p className="text-lg lg:w-[25rem] mx-5 lg:mx-20 my-10 text-start lg:my-0">
+              We organize, plan, analyze, and implement solutions for businesses to help them achieve their goals.
             </p>
           </div>
         </div>
@@ -115,7 +114,7 @@ const BusinessManagement = () => {
             <hr className="horizontalLineTeam  hidden lg:block"></hr>
 
             <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start">
-              Team Management Services: Building and managing a high-performing
+              Building and managing a high-performing
               team is crucial to the success of your business. Our team
               management services focus on coordinating tasks, optimizing
               workflows, and creating a collaborative environment that
@@ -123,9 +122,7 @@ const BusinessManagement = () => {
               approach, we assist in maximizing the potential of your team,
               ensuring everyone collaborates effectively towards your business
               goals. Let us manage your team, so you can concentrate on leading
-              your business to success. Don&apos;t have a team and looking to build
-              one? This service can be tailored to hiring and building your
-              business.
+              your business to success. Don&apos;t have a team and looking to build one? This service can be customized to assist you in hiring and developing your business.
             </p>
           </div>
         </div>
@@ -292,7 +289,7 @@ const BusinessManagement = () => {
                 <hr className="horizontalLineCard mt-3"></hr>
               </div>
               <p className="text-sm text-center lg:text-justify my-3 lg:w-[90%] mx-10">
-                Planning is key to any business&apos;s success, and with our Roadmap
+                Planning is key to any business&apos; success, and with our Roadmap
                 to Success, we make it easy and budget-friendly. This
                 do-it-yourself service provides a comprehensive 90-day planning
                 report, offering a clear and actionable strategy to help you

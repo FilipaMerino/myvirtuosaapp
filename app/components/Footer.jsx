@@ -4,18 +4,13 @@ import Link from "next/link";
 
 import logo from "../../public/images/logo.png";
 
-// import { library } from "@fortawesome/fontawesome-svg-core";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {BsInstagram} from "react-icons/Bs"
+import {FaFacebookSquare} from "react-icons/Fa"
+import {FaLinkedin} from "react-icons/Fa"
 
-// import {
-//   faInstagram,
-//   faLinkedin,
-//   faFacebookSquare,
-// } from "@fortawesome/free-brands-svg-icons";
 
-// import "@fortawesome/fontawesome-svg-core/styles.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
-// library.add(faInstagram, faLinkedin, faFacebookSquare);
 
 const Footer = () => {
   return (
@@ -46,22 +41,16 @@ const Footer = () => {
 
         <div className="flex w-[5rem] justify-between">
           <a href="https://www.instagram.com/adminvirtuosa/">
-            {/* <FontAwesomeIcon
-              icon={faInstagram}
-              className="text-2xl text-[#ffffff] hover:text-[#333333]"
-            />
+          <BsInstagram className="text-2xl text-[#ffffff] hover:text-[#333333]"/>
           </a>
           <a href="https://www.facebook.com/Adminvirtuosa">
-            <FontAwesomeIcon
-              icon={faFacebookSquare}
-              className="text-2xl text-[#ffffff] hover:text-[#333333]"
-            />
+            <FaFacebookSquare  className="text-2xl text-[#ffffff] hover:text-[#333333]"/>
+
+
           </a>
           <a href="https://www.linkedin.com/in/adminvirtuosa/">
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className="text-2xl text-[#ffffff] hover:text-[#333333]"
-            /> */}
+            <FaLinkedin className="text-2xl text-[#ffffff] hover:text-[#333333]"/>
+
           </a>
         </div>
       </div>

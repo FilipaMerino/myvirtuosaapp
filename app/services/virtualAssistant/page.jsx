@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import calendar from "../../../public/images/calendar.jpeg"
 import client from "../../../public/images/client.png";
-import email from "../../../public/images/email.jpeg";
-import event from "../../../public/images/event.svg";
-import planner from "../../../public/images/planner.jpeg";
+import email from "../../../public/images/email.svg";
+import event from "../../../public/images/event.jpeg";
+import planner from "../../../public/images/planner.svg";
 
 
 // import socialmedia from "../../components/images/socialmedia.svg";
@@ -135,7 +135,7 @@ const VirtualAssistant = () => {
         <div className="items-center mx-20 lg:flex lg:p-0 py-10">
           <div className="">
             <h1 className="text-3xl lg:text-5xl lg:mb-5 lg:text-start text-center">
-              Event Coordinator
+              Event Coordinating
             </h1>
             <hr className="horizontalLineTeam hidden lg:block"></hr>
             <div className="flex justify-center lg:hidden">
@@ -151,7 +151,7 @@ const VirtualAssistant = () => {
           </div>
 
           <div className="w-full h-auto hidden lg:flex lg:justify-end">
-            <Image src={event} className="rounded " alt="Client Care"
+            <Image src={event} className="rounded " alt="event"
               objectFit="cover"
               width={300}
               height={300} />

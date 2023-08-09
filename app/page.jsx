@@ -1,16 +1,14 @@
-
 import Link from "next/link";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import Banner from "./components/homePage/Banner";
 import ServiceCard from "./components/homePage/ServiceCard";
 import Newsletter from "./components/homePage/Newsletter";
 
-
-import blogBack from "../public/images/blogBack.png"
-import blogBackSquare from "../public/images/blogBackSquare.png"
-
-
+import blogBack from "../public/images/blogBack.png";
+import blogBackSquare from "../public/images/blogBackSquare.png";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -33,10 +31,10 @@ const HomePage = () => {
           <p className="text-md md:text-lg md:mr-[12rem] text-justify">
             At Admin Virtuosa, our <strong>mission</strong> is to serve as a
             support system for small business owners and entrepreneurs to
-            fulfill their goals while advocating for a balanced approach to work
-            and life. We are proud to offer exceptional personalized services to
-            help prevent burnout and enhance the <strong>mental health</strong>{" "}
-            and well-being of our clients.
+            fulfill their goals, while advocating for a balanced approach to
+            work and life. We are proud to offer exceptional personalized
+            services to help prevent burnout and enhance the{" "}
+            <strong>mental health</strong> and well-being of our clients.
           </p>
         </div>
         <div className="flex mx-5 p-5 md:mt-5 md:mx-5 lg:w-[20rem] justify-center lg:justify-start">
@@ -65,7 +63,7 @@ const HomePage = () => {
             </h1>
           </div>
 
-          <div className=" flex flex-col items-center md:flex lg:flex-row lg:justify-between">
+          <div className=" flex flex-col items-center md:flex lg:flex-row lg:justify-center lg:gap-10">
             <ServiceCard
               href="./services/businessManagement"
               title="Business Management"
@@ -77,13 +75,13 @@ const HomePage = () => {
               title="Virtual Assistant"
               content="A remote assistant to help with administrative, technical and creative services for businesses, entrepreneurs or individuals."
             />
-            <ServiceCard
+            {/* <ServiceCard
               href="/services/webDevelopment"
               title="Web Development"
               content="The process of designing a unique and personalized website to help
   promote brand awareness, sell products, services or other
   opportunities."
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -127,13 +125,14 @@ const HomePage = () => {
             <p className=" mt-5 md:mt-10 text-md text-justify">
               We often forget that our work should be something that sparks joy,
               right? You absolutely deserve a life and a business that lifts you
-              up, rather than drains you. Life&apos;s too short to feel constantly
-              exhausted or overwhelmed. Picture a business that&apos;s in sync with
-              your life, one that values your happiness just as much as your
-              success. Imagine a life where you wake up every morning excited
-              and inspired. Sounds nice, doesn&apos;t it? This is what you&apos;re meant
-              to have, this is what you deserve. Let&apos;s take this journey
-              together, realigning our work with what truly matters.
+              up, rather than drains you. Life&apos;s too short to feel
+              constantly exhausted or overwhelmed. Picture a business
+              that&apos;s in sync with your life, one that values your happiness
+              just as much as your success. Imagine a life where you wake up
+              every morning excited and inspired. Sounds nice, doesn&apos;t it?
+              This is what you&apos;re meant to have, this is what you deserve.
+              Let&apos;s take this journey together, realigning our work with
+              what truly matters.
             </p>
           </div>
         </div>
@@ -153,19 +152,22 @@ const HomePage = () => {
 
           <p className=" md:mb-5 text-justify">
             Our blog is more than just a place for us to share our thoughts.
-            It&apos;s a platform for us to connect, and grow together. Here you will
-            find insightful articles, and helpful tips to run your business
-            strategically. Start reading today and let&apos;s grow your business and
-            knowledge together!
+            It&apos;s a platform for us to connect, and grow together. Here you
+            will find insightful articles, and helpful tips to run your business
+            strategically. Start reading today and let&apos;s grow your business
+            and knowledge together!
           </p>
 
           <div className="flex items-center text-sm mt-5">
             <Link href="./blog" className="hover:underline">
               Learn More
-              {/* <FontAwesomeIcon
+            </Link>
+            <Link href="./blog">
+              {" "}
+              <FontAwesomeIcon
                 icon={faArrowRight}
                 className="ml-2 text-sm w-2 "
-              /> */}
+              />
             </Link>
           </div>
         </div>

@@ -58,8 +58,7 @@ const Louisa = () => {
         <div className="flex flex-col items-center mt-5 lg:items-start lg:ml-10">
           <h1 className="text-3xl lg:text-5xl lg:mb-2">Louisa Thiessen</h1>
           <p className="text-sm">
-            <strong>Owner</strong> and <strong>founder</strong> of Admin
-            Virtuosa.
+            <strong>Owner</strong> and <strong>founder</strong>.
           </p>
           <hr className="horizontalLineTeam "></hr>
 
@@ -82,7 +81,7 @@ const Louisa = () => {
         <div className="p-10 flex flex-col items-center justify-center ">
         <div className="flex lg:flex-col justify-center items-center lg:mb-5">
             <Image src={degree} className="w-[20%] lg:w-[30%] mr-5 mb-3" alt="degree"/>
-            <p className="text-sm text-center">Degree in Administration</p>
+            <p className="text-sm text-center">Degree in Business Administration</p>
           </div>
           <div className="flex lg:flex-col justify-center items-center mb-5">
             <Image src={experience} className="w-[20%] lg:w-[30%] mr-5 mb-3" alt="experience"/>
@@ -97,8 +96,8 @@ const Louisa = () => {
             <Image src={quotes1} className="w-32" alt="quotes"/>
           </div>
           <h1 className="text-xl lg:text-3xl mb-3 lg:mb-5 italic text-center mx-10 lg:mx-64">
-          &quot;I am passionate about joining forces with business owners and
-            helping them do business in a healthy way.&quot;
+          &quot;I&apos;m passionate about joining forces with business owners and helping them run their operations in a healthy way so that they can have a sustainable business.
+&quot;
           </h1>
           <div className="absolute bottom-10 right-40 hidden lg:block">
             <Image src={quotes2} className="w-32" alt="quotes"/>

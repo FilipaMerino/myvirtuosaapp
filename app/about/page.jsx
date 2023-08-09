@@ -15,32 +15,27 @@ const AboutPage = () => {
     {
       title: "Honesty",
       content:
-        "We believe that trust is the foundation of any successful partnership.",
+        "We believe that trust is the foundation of a successful partnership. Without honesty there is no trust which is why honesty is our #1 value. We strive to earn and maintain the confidence of our clients and are dedicated to providing accurate, objective, and unbiased advice to our clients.",
     },
     {
       title: "Integrity",
       content:
-        "We are committed to doing all things in an ethical, sustainable, and respectful manner.",
+        "We are committed to doing all things in an ethical, sustainable, and respectful manner. We ensure that our actions are always guided by a strong moral compass. Our decisions are guided by our principles and we stand up for what is right and ethical.",
     },
     {
       title: "Respect",
       content:
         "We treat all clients and team members with dignity, fairness and respect. We provide an inclusive environment that values diversity and promotes equal opportunity.",
     },
-    {
-      title: "Love",
-      content:
-        "We believe that love has the ability to create a positive and nurturing environment that supports the growth and success of our clients.",
-    },
+
     {
       title: "Humility",
       content:
-        "We believe that collaboration is the key to unlocking creativity and success.",
+        "We treat all clients and team members with dignity, fairness and respect. We provide an inclusive environment that values diversity and promotes equal opportunity.",
     },
     {
-      title: "Colaboration",
-      content:
-        "We believe that collaboration is the key to unlocking creativity and success. We are committed to fostering a culture of teamwork, open communication, and mutual support",
+      title: "Collaboration",
+      content: "We believe that collaboration is the key to unlocking creativity and success. We are committed to creating a culture of teamwork, open communication, and mutual support." ,
     },
   ];
 
@@ -60,12 +55,25 @@ const AboutPage = () => {
 
       <div className="flex items-center lg:h-[30rem]">
         <div className="hidden lg:block  flex-col justify-center items-start lg:w-[20rem] lg:ml-20">
+
+
+
+          <Link href="#aboutUs">
           <p className="font-semibold	lg:mb-1">About Us.</p>
-          <p className="font-semibold	lg:mb-1">Our Values.</p>
+          </Link>
+
+          <Link href="#values">
+            <p className="font-semibold	lg:mb-1">Our Values.</p>
+          </Link>
+
+
+          <Link href="#team">
           <p className="font-semibold	">Team.</p>
+          </Link>
+
         </div>
 
-        <div className=" p-10 lg:h-[20rem] flex flex-col justify-center mx-5 lg:mx-20 lg:p-5">
+        <div className=" p-10 lg:h-[20rem] flex flex-col justify-center mx-5 lg:mx-20 lg:p-5" id="aboutUs">
           <div className="flex mb-2 lg:mb-10">
             <h1 className="text-3xl lg:text-5xl">About</h1>
             <h1 className="text-3xl lg:text-5xl text-[#fb653e] ml-3">Us.</h1>
@@ -113,7 +121,7 @@ const AboutPage = () => {
 
       {/* HERE IS THE VALUES */}
 
-      <div className="flex flex-col lg:flex-row lg:h-[30rem] md:mx-20 justify-around p-10">
+      <div className="flex flex-col lg:flex-row lg:h-[30rem] md:mx-20 justify-around p-10" id="values">
         <div className="flex items-center justify-center lg:mt-10">
           <h1 className="text-3xl lg:text-5xl">Our</h1>
           <h1 className="text-3xl lg:text-5xl ml-2 text-[#fb653e]">Values.</h1>
@@ -122,7 +130,7 @@ const AboutPage = () => {
         <div className="flex justify-center mb-10 mt-5">
           <hr className="horizontalLineCard block  lg:hidden"></hr>
         </div>
-        <div className="carousel w-[100%] lg:w-[50%] flex">
+        <div className="carousel w-[100%] lg:w-[60%] flex">
           <div className="carousel-item relative w-full">
             <ValueCard
               title={values[currentSlide].title}
@@ -147,7 +155,7 @@ const AboutPage = () => {
 
       {/* {/* THIS IS THE TEAM SESSION */}
 
-      <div className="bg-[#f2f2ef5e] flex items-center my-auto p-5">
+      <div className="bg-[#f2f2ef5e] flex items-center my-auto p-5" id="team">
         <div className="relative  flex-col items-start w-[35%] justify-center lg:h-[40rem] mx-5 lg:mx-20 hidden lg:flex lg:mb-20">
           <div className="relative z-10 bottom-3 left-40 transform -translate-y-16 group overflow-hidden">
             <Image src={subscribe} className="w-64 rounded-md drop-shadow-lg z-0" alt="team" />
@@ -168,7 +176,7 @@ const AboutPage = () => {
 
           <div className=" text-center lg:text-start mt-3 lg:mt-0  p-2flex flex-col items-center lg:items-start lg:p-0">
             <p className="">
-              We&apos;re a group of dedicated professionals, each with unique skills
+              We are a group of dedicated professionals, each with unique skills
               and experiences. Together, we work to deliver top-notch services
               that make a real difference. Our shared passion for helping
               businesses grow is what unites us. We&apos;re here to support you and
@@ -189,18 +197,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div className="avatar relative ml-5">
-              <div className="w-32 lg:w-20 rounded ">
-                <Link href="./about/filipa">
-                  <Image
-                    src={filipa}
-                    className="transform hover:scale-105 transition-transform"
-                  alt="team"/>
-                  {/* The semi-transparent overlay */}
-                  <div className="overlay"></div>
-                </Link>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
