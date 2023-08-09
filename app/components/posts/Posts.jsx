@@ -39,8 +39,8 @@ const Posts = () => {
             <Link href={`/blog/${post.id}`}>
               <img src={post.img} alt="post" className="hover:brightness-90 transition-all duration-200 w-[40rem] mb-5 rounded-lg"/>
             </Link>
-            <div className="">
-              <p className="text-sm mb-5 text-justify w-72">
+            <div className="w-[25rem] md:w-full">
+              <p className="text-md mb-5 text-start lg:text-justify md:w-full">
                 {post.content.substring(0, 180) + "..."}
               </p>
 
