@@ -51,7 +51,7 @@ const BusinessManagement = () => {
       <div className="lg:h-[30rem] flex items-center justify-center">
         <div className="flex items-center justify-center">
           <div className="w-[25%] hidden lg:block">
-            <Image src={obmplan} alt="Online Business Management"/>
+            <img src={obmplan} alt="Online Business Management"/>
           </div>
 
           <div>
