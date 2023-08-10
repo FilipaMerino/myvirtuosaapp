@@ -276,7 +276,8 @@ const BusinessManagement = () => {
             <div className="flex flex-col items-center mt-3">
               <Link href="https://small-paper-658.myflodesk.com">
                 <Image
-                  src={ebook}
+                  src="https://res.cloudinary.com/dugiameli/image/upload/v1691671720/ebook_gso2pn.jpg"
+                  width={500} height={500}
                   className="w-80 h-80 object-cover rounded-lg mb-5 drop-shadow-md"
                   alt="obm"
                 />
@@ -314,7 +315,7 @@ const BusinessManagement = () => {
             <div className="flex flex-col items-center mt-3">
               <Link href="https://delicate-fashion-477.myflodesk.com">
                 <Image
-                  src={automation}
+                  src="https://res.cloudinary.com/dugiameli/image/upload/v1691243579/hfd9guxpkshfgsfkm3bw.png" width={500} height={500}
                   className="w-80 h-80 object-cover rounded-lg mb-5 drop-shadow-md"
                   alt="automation"
                 />
