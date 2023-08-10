@@ -9,6 +9,9 @@ import subscribe from "../../public/images/subscribe.jpeg";
 import team from "../../public/images/team.jpeg";
 import filipa from "../../public/images/filipa.jpeg";
 import LouisaPic from "../../public/images/LouisaPic.jpeg";
+import CarouselTestimonial from "../components/testimonials/CarouselTestimonial";
+import UncontrolledExample from "../components/testimonials/CarouselTestimonial";
+import ImageCarousel from "../components/testimonials/CarouselTestimonial";
 
 const AboutPage = () => {
   const values = [
@@ -217,6 +220,8 @@ const AboutPage = () => {
 
       <div>
         <Testimonials/>
+
+        {/* <ImageCarousel/> */}
       </div>
     </div>
   );
