@@ -23,11 +23,11 @@ const BusinessManagement = () => {
     <div className="overflow-hidden">
       {/* BANNER */}
       <div className="flex items-center relative h-[35rem]">
-        <Image
+        <img
           src={management}
           layout="fill"
           objectFit="cover"
-          alt="banner"></Image>
+          alt="banner" />
         <div className="absolute inset-0 bg-black opacity-70"></div>
 
         <div className="flex mx-5 md:mx-10 flex-col p-5 absolute">
