@@ -23,7 +23,7 @@ const BusinessManagement = () => {
     <div className="overflow-hidden">
       {/* BANNER */}
       <div className="flex items-center relative h-[35rem]">
-        <img
+        <Image
           src={management}
           layout="fill"
           objectFit="cover"
@@ -51,7 +51,7 @@ const BusinessManagement = () => {
       <div className="lg:h-[30rem] flex items-center justify-center">
         <div className="flex items-center justify-center">
           <div className="w-[25%] hidden lg:block">
-            <img src={obmplan} alt="Online Business Management" />
+            <Image src={obmplan} alt="Online Business Management" />
           </div>
 
           <div>
