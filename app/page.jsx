@@ -33,7 +33,7 @@ const HomePage = () => {
         </div>
 
         <div className="mx-5 px-5 md:mt-5 ">
-          <p className="text-md md:text-lg md:mr-[12rem] text-justify">
+          <p className="text-md md:text-lg md:mr-[12rem] text-start md:text-justify">
             At Admin Virtuosa, our <strong>mission</strong> is to serve as a support system for
             small business owners and entrepreneurs to fulfill their goals,
             while advocating for a balanced approach to work and life. We are
@@ -127,7 +127,7 @@ const HomePage = () => {
           </div>
 
           <div className="">
-            <p className=" mt-5 md:mt-10 text-md text-justify">
+            <p className=" mt-5 md:mt-10 text-md text-start md:text-justify">
               We often forget that our work should be something that sparks joy,
               right? You absolutely deserve a life and a business that lifts you
               up, rather than drains you. Life&apos;s too short to feel
@@ -155,7 +155,7 @@ const HomePage = () => {
 
           <hr className="horizontalLineCard block lg:hidden mb-5"></hr>
 
-          <p className=" md:mb-5 text-justify">
+          <p className=" md:mb-5 text-start md:text-justify">
             Our blog is more than just a place for us to share our thoughts.
             It&apos;s a platform for us to connect, and grow together. Here you
             will find insightful articles, and helpful tips to run your business
