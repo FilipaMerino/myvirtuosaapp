@@ -55,7 +55,7 @@ const VirtualAssistant = () => {
             <div className="flex justify-center lg:hidden">
               <hr className="horizontalLineCard my-3"></hr>
             </div>
-            <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start lg:mr-10">
+            <p className="text-center lg:text-lg lg:mt-10 lg:text-start lg:mr-10">
               Our Email Management service is designed to bring order to your
               business communication. We create tailored strategies for
               efficiently handling your emails, which align with your unique
@@ -78,7 +78,7 @@ const VirtualAssistant = () => {
             <div className="flex justify-center lg:hidden">
               <hr className="horizontalLineCard my-3"></hr>
             </div>
-            <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start">
+            <p className="text-center lg:text-lg lg:mt-10 lg:text-start">
               In business, building and nurturing client relationships is
               fundamental, and our Client Care Management service has been
               designed with this in mind. Our expert team focuses on
@@ -101,7 +101,7 @@ const VirtualAssistant = () => {
       {/* CALENDAR MANAGEMENT */}
       <div className="lg:h-[30rem] flex items-center bg-[#f2f2ef5e]">
         <div className="items-center lg:w-[1/3] mx-20 lg:flex lg:p-0 py-10">
-          <div className="w-full h-auto hidden lg:block">
+          <div className=" w-full h-auto hidden lg:block">
             <Image src={planner} className="rounded" alt="Calendar Management"
               objectFit="cover"
               width={300}
@@ -116,7 +116,7 @@ const VirtualAssistant = () => {
             <div className="flex justify-center lg:hidden">
               <hr className="horizontalLineCard my-3"></hr>
             </div>
-            <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start">
+            <p className="text-center lg:text-lg lg:mt-10 lg:text-start">
               Achieving your goals often begins with efficient scheduling and
               time management. With our Calendar Management service, we help you
               stay on top of your appointments and manage your schedule
@@ -141,7 +141,7 @@ const VirtualAssistant = () => {
             <div className="flex justify-center lg:hidden">
               <hr className="horizontalLineCard my-3"></hr>
             </div>
-            <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start">
+            <p className="text-center lg:text-lg lg:mt-10 lg:text-start">
             Creating successful events starts with a clear vision and detailed
               planning. Our Event Coordination service takes the stress out of
               planning and execution. We engage with you to fully understand

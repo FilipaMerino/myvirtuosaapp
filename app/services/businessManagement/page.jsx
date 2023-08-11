@@ -86,7 +86,7 @@ const BusinessManagement = () => {
             <div className="flex justify-center lg:hidden">
                 <hr className="horizontalLineCard mb-3"></hr>
               </div>
-            <p className="text-sm lg:text-lg lg:mt-10 text-center lg:text-start">
+            <p className=" lg:text-lg lg:mt-10 text-center lg:text-start">
               Stay on top of your business projects with our expert project
               management services. From initial planning to final delivery, we
               handle every step with an eye for detail. Our goal is to ensure
@@ -113,7 +113,7 @@ const BusinessManagement = () => {
               </div>
             <hr className="horizontalLineTeam  hidden lg:block"></hr>
 
-            <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start">
+            <p className=" text-center lg:text-lg lg:mt-10 lg:text-start">
               Building and managing a high-performing
               team is crucial to the success of your business. Our team
               management services focus on coordinating tasks, optimizing
@@ -158,7 +158,7 @@ const BusinessManagement = () => {
             <div className="flex justify-center lg:hidden">
                 <hr className="horizontalLineCard mb-3"></hr>
               </div>
-            <p className="text-sm lg:text-lg lg:mt-10 text-center lg:text-start">
+            <p className="lg:text-lg lg:mt-10 text-center lg:text-start">
               In today&apos;s fast-paced business environment, efficient operations
               are vital. Our operations management services focus on improving
               your internal processes and workflow for increased productivity
@@ -189,7 +189,7 @@ const BusinessManagement = () => {
                 <hr className="horizontalLineCard mb-3"></hr>
               </div>
 
-            <p className="text-sm text-center lg:text-lg lg:mt-10 lg:text-start">
+            <p className="text-center lg:text-lg lg:mt-10 lg:text-start">
               Your business deserves personalized attention, and that&apos;s exactly
               what we provide with our 1:1 consulting service. We engage with
               you directly, understanding your unique challenges and
@@ -226,7 +226,7 @@ const BusinessManagement = () => {
           </div>
 
           <div>
-            <p className="text-sm md:text-lg text-center lg:mx-20">
+            <p className="md:text-lg text-center lg:mx-20">
               We understand that every business has different needs and
               resources, which is why we offer a variety of affordable,
               do-it-yourself solutions.
@@ -237,7 +237,7 @@ const BusinessManagement = () => {
                 <Image src={affordable} className="w-16 mb-3" alt="OBM"/>
                 <div className="flex flex-col items-center">
                   <h4 className="text-lg mb-2 text-center font-semibold ">Cost Effective</h4>
-                  <p className="text-xs text-center">
+                  <p className="text-sm text-center">
                     Say goodbye to outsourcing expenses and embrace efficient,
                     cost-effective strategies for sustainable growth.
                   </p>
@@ -247,14 +247,14 @@ const BusinessManagement = () => {
               <div className="flex flex-col items-center">
                 <Image src={knowledge} className="w-16 mb-3" alt="OBM"/>
                 <h4 className="text-lg mb-2 text-center font-semibold">knowledge</h4>
-                <p className="text-xs text-center">
+                <p className="text-sm text-center">
                   Gain valuable insights through our knowledge-driven approach
                   that supports informed decisions for your business success.
                 </p>
               </div>
             </div>
 
-            <p className="text-sm md:text-lg text-center ">
+            <p className="md:text-lg text-center ">
               These services are designed to equip you with the essential tools
               and guidance you need to effectively manage and grow your business
               at your own pace. Our DIY services are not just cost-effective;
@@ -289,7 +289,7 @@ const BusinessManagement = () => {
               <div className="flex justify-center lg:hidden">
                 <hr className="horizontalLineCard mt-3"></hr>
               </div>
-              <p className="text-sm text-center lg:text-justify my-3 lg:w-[90%] mx-10">
+              <p className="text-center lg:text-justify my-3 lg:w-[90%] mx-10">
                 Planning is key to any business&apos; success, and with our Roadmap
                 to Success, we make it easy and budget-friendly. This
                 do-it-yourself service provides a comprehensive 90-day planning
@@ -327,7 +327,7 @@ const BusinessManagement = () => {
               <div className="flex justify-center lg:hidden">
                 <hr className="horizontalLineCard mt-3"></hr>
               </div>
-              <p className="text-sm text-center lg:text-justify my-3 lg:w-[90%] mx-10">
+              <p className="text-center lg:text-justify my-3 lg:w-[90%] mx-10">
                 Standard Operating Procedures (SOPs) are the backbone of any
                 successful operation, providing consistency, clarity, and
                 efficiency. This service provides you with comprehensive
