@@ -187,29 +187,36 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="my-10 flex justify-center lg:justify-start">
-            <div className="avatar relative">
-              <div className="w-32 lg:w-20 rounded">
+            <div className="avatar relative flex flex-col items-center">
+              <div className="w-32 lg:w-32 rounded mb-3">
                 <Link href="./about/louisa">
                   <Image
                     src={LouisaPic}
-                    className="transform hover:scale-105 transition-transform border"
+                    className="transform hover:scale-105 transition-transform border mb-2"
                     alt="team"/>
                   {/* The semi-transparent overlay */}
-                  <div className="overlay"></div>
+
                 </Link>
+              </div>
+              <div className="flex flex-col items-center">
+                <p className="text-sm text-center font-semibold">Louisa Thiessen</p>
+                <p className="text-xs text-center">Founder & OBM</p>
               </div>
             </div>
 
-            <div className="avatar relative ml-5">
-              <div className="w-32 lg:w-20 rounded ">
+            <div className="avatar relative ml-5 flex flex-col items-center">
+              <div className="w-32 lg:w-32 rounded mb-3">
                 <Link href="./about/filipa">
                   <Image
                     src={filipa}
                     className="transform hover:scale-105 transition-transform"
                   alt="team"/>
                   {/* The semi-transparent overlay */}
-                  <div className="overlay"></div>
                 </Link>
+              </div>
+              <div className="flex flex-col items-center">
+                <p className="text-sm text-center font-semibold">Filipa Merino</p>
+                <p className="text-xs text-center">Web Developer</p>
               </div>
             </div>
           </div>

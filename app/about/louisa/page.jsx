@@ -58,7 +58,7 @@ const Louisa = () => {
         <div className="flex flex-col items-center mt-5 lg:items-start lg:ml-10">
           <h1 className="text-3xl lg:text-5xl lg:mb-2">Louisa Thiessen</h1>
           <p className="text-sm">
-            <strong>Owner</strong> and <strong>founder</strong>.
+            <strong>Owner</strong> and <strong>founder</strong>
           </p>
           <hr className="horizontalLineTeam "></hr>
 
