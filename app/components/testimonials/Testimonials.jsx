@@ -59,7 +59,7 @@ const Testimonials = () => {
       </div>
 
       {/* Carousel */}
-      <div className="flex-none w-[55%] flex flex-col ">
+      <div className="flex-none md:w-[55%] flex flex-col ">
         <div className="carousel">
           {testimonials.map((testimonial, index) => (
             <div
@@ -75,7 +75,7 @@ const Testimonials = () => {
                   height={200}
                 /> */}
 
-                <div className="card-body flex flex-col items-center">
+                <div className="card-body flex flex-col items-center w-[25rem]">
                   <h2 className="card-title">{testimonial.name}</h2>
                   <p className="text-xs">{testimonial.companyName}</p>
                   <p className="text-center">
