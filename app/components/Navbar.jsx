@@ -62,14 +62,14 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex lg:justify-between lg:items-center">
             <ul className="menu menu-horizontal px-1 text-white">
               <li>
-                <Link href="/about">About</Link>
+                <Link href="/about" className='hover:text-white'>About</Link>
               </li>
 
               <li>
-                <Link href="/#service">Services</Link>
+                <Link href="/#service" className='hover:text-white'>Services</Link>
               </li>
               <li>
-                <Link href="/blog">Blog</Link>
+                <Link href="/blog" className='hover:text-white'>Blog</Link>
               </li>
               <li>
                 {user && (
