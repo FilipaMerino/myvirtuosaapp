@@ -64,15 +64,23 @@ const Louisa = () => {
 
           <p className="text-md mx-10 lg:mx-0 mt-2 lg:my-2 text-justify">
             {" "}
-            Louisa is an experienced administrative professional with a passion
-            for <strong>sustainable business growth</strong>.
+            Louisa is an experienced Online Business Manager that specialized in strategic business planning. She has a passion for <strong>sustainable business growth</strong>.
           </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
           <p className="text-md mx-10 lg:mx-0 my-2 text-start lg:text-justify">
-            As a mom and business owner, she understands the importance of
-            having proper systems in place so that everything can run smoothly
-            on the business side of things. She has worked to balance her
-            business and personal life, allowing her more freedom to conquer her
-            goals and focus on the core aspects of her life.
+          As a mom and business owner, she understands the importance of having proper systems in place so that everything can run smoothly on the business side of things. She has worked to balance her business and personal life, allowing her more freedom to conquer her goals and focus on the core aspects of her life.
           </p>
         </div>
 

@@ -29,12 +29,12 @@ const HomePage = () => {
 
         <div className="mx-5 px-5 md:mt-5 ">
           <p className="text-md md:text-lg md:mr-[12rem] text-justify">
-            At Admin Virtuosa, our <strong>mission</strong> is to serve as a
-            support system for small business owners and entrepreneurs to
-            fulfill their goals, while advocating for a balanced approach to
-            work and life. We are proud to offer exceptional personalized
-            services to help prevent burnout and enhance the{" "}
-            <strong>mental health</strong> and well-being of our clients.
+            At Admin Virtuosa, our <strong>mission</strong> is to serve as a support system for
+            small business owners and entrepreneurs to fulfill their goals,
+            while advocating for a balanced approach to work and life. We are
+            proud to offer personalized Online Business Management and Virtual
+            Assistant services to help your business grow sustainably, prevent
+            burnout and enhance the <strong>mental health</strong> and well-being of our clients.
           </p>
         </div>
         <div className="flex mx-5 p-5 md:mt-5 md:mx-5 lg:w-[20rem] justify-center lg:justify-start">
@@ -56,10 +56,10 @@ const HomePage = () => {
         <div className="mx-5 my-10 flex flex-col :items-center">
           <div className="mb-16">
             <h1 className="text-3xl text-center  lg:text-5xl lg:mb-2">
-              High Quality Services
+              Customized Administrative
             </h1>
             <h1 className="text-3xl text-center  lg:text-5xl">
-              For Your Business
+              Services For Your Business
             </h1>
           </div>
 

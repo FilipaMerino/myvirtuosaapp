@@ -65,7 +65,7 @@ const Newsletter = () => {
           ></div>
           <div className="flex mb-4" data-paragraph="true">
             <h1 className="text-3xl lg:text-5xl lg:text-start">
-              Subscribe Our
+              Subscribe To Our
             </h1>
             <h1 className="text-3xl lg:text-5xl ml-3 text-[#fb653e]">
               Newsletter
@@ -74,9 +74,9 @@ const Newsletter = () => {
 
           <div className="lg:w-[44rem] mb-10">
             <p className="" data-paragraph="true">
-              Stay connected by subscribing to our newsletter.
+            You don&apos;t have to be an entrepreneur on your own. For tips on how to run your business sustainably, subscribe to our newsletter. We respect your inbox and we promise not to spam you.
             </p>
-            <p className='text-sm'>We respect your inbox and we promise not to spam you.</p>
+
           </div>
 
           <div className="">

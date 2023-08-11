@@ -274,7 +274,7 @@ const BusinessManagement = () => {
         <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-center gap-10 lg:gap-20 lg:mx-10">
           <div className="lg:w-[40%]">
             <div className="flex flex-col items-center mt-3">
-              <Link href="https://small-paper-658.myflodesk.com">
+              <Link href="https://peaceful-wave-664.myflodesk.com">
                 <Image
                   src={ebook}
                   width={500} height={500}
@@ -299,7 +299,7 @@ const BusinessManagement = () => {
             </div>
             <div className="flex justify-center lg:justify-end mx-6 items-center">
               <Link
-                href="https://small-paper-658.myflodesk.com"
+                href="https://peaceful-wave-664.myflodesk.com"
                 className="hover:underline text-sm flex items-center font-semibold">
                 <p>Learn More</p>
 
@@ -313,7 +313,7 @@ const BusinessManagement = () => {
 
           <div className="lg:w-[40%]">
             <div className="flex flex-col items-center mt-3">
-              <Link href="https://delicate-fashion-477.myflodesk.com">
+              <Link href="https://exceptional-surf-839.myflodesk.com">
                 <Image
                   src={automation} width={500} height={500}
                   className="w-80 h-80 object-cover rounded-lg mb-5 drop-shadow-md"
@@ -338,7 +338,7 @@ const BusinessManagement = () => {
             </div>
             <div className="flex justify-center lg:justify-end mx-6 items-center">
               <Link
-                href="https://delicate-fashion-477.myflodesk.com"
+                href="https://exceptional-surf-839.myflodesk.com"
                 className="hover:underline text-sm flex items-center font-semibold">
                 <p>Learn More</p>
 
