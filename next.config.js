@@ -15,7 +15,7 @@ const nextConfig = {
       },
       {
         source: '/ebook',
-        destination: 'https://app.flodesk.com/form/649cb575cac3e37f36e4a3b5/build',
+        destination: 'https://view.flodesk.com/pages/649cb6aa7b86946780829a32',
         permanent: true,
       },
     ];
