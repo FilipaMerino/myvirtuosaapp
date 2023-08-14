@@ -9,7 +9,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/SOP_Quick_Start',
+        source: '/SOPQuickStart',
         destination: 'https://exceptional-surf-839.myflodesk.com/',
         permanent: true,
       },
