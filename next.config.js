@@ -4,13 +4,18 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/ebook',
+        source: '/roadmaptosuccess',
         destination: 'https://peaceful-wave-664.myflodesk.com/',
         permanent: true,
       },
       {
-        source: '/SOPQuickStart',
+        source: '/sopquickstart',
         destination: 'https://exceptional-surf-839.myflodesk.com/',
+        permanent: true,
+      },
+      {
+        source: '/ebook',
+        destination: 'https://app.flodesk.com/form/649cb575cac3e37f36e4a3b5/build',
         permanent: true,
       },
     ];
