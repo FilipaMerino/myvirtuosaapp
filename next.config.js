@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 
+const { WidthWideTwoTone } = require('@mui/icons-material');
+
 const nextConfig = {
   async redirects() {
     return [
@@ -26,3 +28,6 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+
+
