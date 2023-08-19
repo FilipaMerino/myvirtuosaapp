@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import calendar from "../../../public/images/calendar.jpeg"
 import client from "../../../public/images/client.png";
 import email from "../../../public/images/email.svg";
@@ -63,6 +63,11 @@ const VirtualAssistant = () => {
               prioritized and your inbox remains organized, we help you save
               valuable time and maintain effective communication.
             </p>
+            <Link
+            href="https://hello.dubsado.com/public/form/view/62435fd047bf3990e0a4af23"
+            className="flex justify-center btn drop-shadow-md lg:w-[15rem] mt-5">
+            Book Your Consultation
+          </Link>
           </div>
         </div>
       </div>
@@ -87,6 +92,11 @@ const VirtualAssistant = () => {
               role of maintaining client relations, allowing you to concentrate
               on the other aspects of growing your business.
             </p>
+            <Link
+            href="https://hello.dubsado.com/public/form/view/62435fd047bf3990e0a4af23"
+            className="flex justify-center btn drop-shadow-md lg:w-[15rem] mt-5">
+            Book Your Consultation
+          </Link>
           </div>
 
           <div className="w-full h-auto hidden lg:block">
@@ -124,6 +134,11 @@ const VirtualAssistant = () => {
               strategies that cater to your specific business needs, keeping
               your operations running smoothly and on time.
             </p>
+            <Link
+            href="https://hello.dubsado.com/public/form/view/62435fd047bf3990e0a4af23"
+            className="flex justify-center btn drop-shadow-md lg:w-[15rem] mt-5">
+            Book Your Consultation
+          </Link>
           </div>
         </div>
       </div>
@@ -148,6 +163,11 @@ const VirtualAssistant = () => {
               your event goals and objectives, and then manage every detail to
               ensure a seamless event experience.
             </p>
+            <Link
+            href="https://hello.dubsado.com/public/form/view/62435fd047bf3990e0a4af23"
+            className="flex justify-center btn drop-shadow-md lg:w-[15rem] mt-5">
+            Book Your Consultation
+          </Link>
           </div>
 
           <div className="w-full h-auto hidden lg:flex lg:justify-end">
