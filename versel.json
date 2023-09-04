@@ -29,13 +29,7 @@
   "rewrites": [
     {
       "source": "https://www.adminvirtuosa.com/roadmaptosuccess/",
-      "destination": "https://peaceful-wave-664.myflodesk.com/",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.adminvirtuosa.com"
-        }
-      ]
+      "destination": "https://peaceful-wave-664.myflodesk.com/"
     }
   ]
 }
