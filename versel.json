@@ -1,25 +1,41 @@
+// {
+//   "rewrites": [
+//     {
+//       "source": "https://app.flodesk.com/checkout/330d7c8f-462e-4eb7-9666-4398369f2e50",
+//       "destination": "https://www.adminvirtuosa.com/roadmaptosuccess/",
+//       "has": [
+//         {
+//           "type": "host",
+//           "value": "flowdesk.adminvirtuosa.com"
+//         }
+//       ]
+//     },
+//     {
+//       "source": "https://app.flodesk.com/checkout/9f0a52ae-5392-4963-9a98-f6a4dd810062",
+//       "destination": "https://www.adminvirtuosa.com/SOP/",
+//       "has": [
+//         {
+//           "type": "host",
+//           "value": "flowdesk.adminvirtuosa.com"
+//         }
+//       ]
+//     }
+
+//   ]
+// }
+
+
 {
   "rewrites": [
     {
-      "source": "https://app.flodesk.com/checkout/330d7c8f-462e-4eb7-9666-4398369f2e50",
-      "destination": "https://www.adminvirtuosa.com/roadmaptosuccess/",
+      "source": "https://www.adminvirtuosa.com/roadmaptosuccess/",
+      "destination": "https://peaceful-wave-664.myflodesk.com/",
       "has": [
         {
           "type": "host",
-          "value": "flowdesk.adminvirtuosa.com"
-        }
-      ]
-    },
-    {
-      "source": "https://app.flodesk.com/checkout/9f0a52ae-5392-4963-9a98-f6a4dd810062",
-      "destination": "https://www.adminvirtuosa.com/SOP/",
-      "has": [
-        {
-          "type": "host",
-          "value": "flowdesk.adminvirtuosa.com"
+          "value": "www.adminvirtuosa.com"
         }
       ]
     }
-
   ]
 }

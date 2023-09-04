@@ -1,11 +1,6 @@
 "use client";
 import { useAddPost } from "@/app/hooks/posts";
-// import React from 'react'
-// import { useForm } from 'react-hook-form'
-// import {useState } from "react";
-// import { uploadBytes, getDownloadURL } from "firebase/storage";
-// import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-// import { storage } from '../../lib/firebase';
+//
 
 import React from "react";
 import { useForm } from "react-hook-form";
@@ -24,7 +19,7 @@ const CreatePost = () => {
 
     let imageUrl = null;
 
-    if (data.image && data.image.length > 0) {
+    // if (data.image && data.image.length > 0) {
       // Create a reference for the file
       const fileRef = ref(storage, `posts/${data.image[0].name}`);
 
@@ -33,7 +28,7 @@ const CreatePost = () => {
 
       // Get the download URL of the file
       imageUrl = await getDownloadURL(fileRef);
-    }
+    // }
 
     // addPost(data)
     addPost({
@@ -44,6 +39,14 @@ const CreatePost = () => {
     reset();
     setModalOpen(false);
   };
+
+
+  const handleCloseModal = () => {
+    reset ();
+    setModalOpen(false);
+  }
+
+
 
   return (
     <div className="flex justify-center ">
@@ -57,9 +60,11 @@ const CreatePost = () => {
           className={`modal ${modalOpen ? "modal-open" : ""}`}>
           <form
             className="flex flex-col gap-4 modal-box"
-            onSubmit={handleSubmit(handleAddPost)}>
+            // onSubmit={handleSubmit(handleAddPost)}
+            >
+
             <button
-              onClick={() => setModalOpen(false)}
+              onClick={handleCloseModal}
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
               ✕
             </button>
@@ -90,7 +95,7 @@ const CreatePost = () => {
               <input type="file" {...register("image")} />
             </div>
 
-            <input type="submit" className="btn btn-primary" />
+            <input type="submit" className="btn btn-primary" onClick={handleSubmit(handleAddPost)}/>
           </form>
         </dialog>
       </div>
