@@ -25,7 +25,7 @@ const SignInForm = () => {
   }
 
   return (
-    <div className="flex flex-col justify-center ">
+    <div className="flex flex-col justify-center p-[5rem]">
       <div className="flex justify-center text-4xl ">
         <h1>Sign In</h1>
       </div>
