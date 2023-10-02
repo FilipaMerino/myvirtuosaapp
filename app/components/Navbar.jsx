@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-[#333333] w-full ">
+      <nav className="bg-[#333333] w-full pr-5">
         <div className="navbar lg:flex lg:justify-between">
           <div className="navbar-start">
             <div className="dropdown">
@@ -28,7 +28,7 @@ const Navbar = () => {
 
               <ul
                 tabIndex={0}
-                className="bg-white menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32"
+                className="bg-white menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-32"
               >
                 <li>
                   <Link href="/about">About</Link>
@@ -59,19 +59,19 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="navbar-center hidden lg:flex lg:justify-between lg:items-center">
-            <ul className="menu menu-horizontal px-1 text-white">
-              <li>
-                <Link href="/about" className='hover:text-white'>About</Link>
-              </li>
+          <div className="navbar-center hidden lg:flex lg:justify-between lg:items-center gap-6">
 
-              <li>
-                <Link href="/#service" className='hover:text-white'>Services</Link>
-              </li>
-              <li>
-                <Link href="/blog" className='hover:text-white'>Blog</Link>
-              </li>
-              <li>
+
+                <Link href="/about" className='link hover:text-[#f2f2ef5e] no-underline text-[14px] text-white'>About</Link>
+
+
+
+                <Link href="/#service" className='link no-underline hover:text-[#f2f2ef5e] text-[14px] text-white'>Services</Link>
+
+
+                <Link href="/blog" className='link no-underline hover:text-[#f2f2ef5e] text-[14px] text-white'>Blog</Link>
+
+
                 {user && (
                   <button type="button" onClick={logout}>
                     <Link href="/">
@@ -81,8 +81,8 @@ const Navbar = () => {
                 )}
 
                 {/* )} */}
-              </li>
-            </ul>
+
+
           </div>
         </div>
       </nav>
