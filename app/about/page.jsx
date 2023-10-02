@@ -172,7 +172,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="lg:mr-20 lg:w-[50%] p-5 w-full">
+        <div className="lg:mr-20 lg:w-[50%] lg:p-5 w-full p-10">
           <div className="flex justify-center lg:justify-start items-start lg:mb-5">
             <h1 className="text-3xl lg:text-5xl">Our</h1>
             <h1 className="text-3xl lg:text-5xl text-[#fb653e] lg:ml-3 ml-2">
@@ -189,9 +189,13 @@ const AboutPage = () => {
               your vision.
             </p>
           </div>
-          <div className="my-10 flex justify-center lg:justify-start">
-            <div className="avatar relative flex flex-col items-center">
-              <div className="w-32 lg:w-32 rounded mb-3">
+
+          <div className="my-10 flex justify-around lg:justify-start">
+
+
+
+            <div className="avatar relative flex flex-col items-center ">
+              <div className="w-32 lg:w-32 rounded mb-3 ">
                 <Link href="./about/louisa">
                   <Image
                     src={LouisaPic}
