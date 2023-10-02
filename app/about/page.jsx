@@ -59,7 +59,7 @@ const AboutPage = () => {
     <div className="">
       {/* THIS IS THE TITLE AND TEXT OF ABOUT SESSION */}
 
-      <div className="flex items-center lg:h-[30rem]">
+      <div className="flex items-center lg:h-[30rem] p-10">
         <div className="hidden lg:block  flex-col justify-center items-start lg:w-[20rem] lg:ml-20">
 
 
@@ -172,7 +172,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="lg:mr-20 lg:w-[50%] lg:p-5 w-full p-10">
+        <div className="lg:mr-20 lg:w-[50%] lg:p-5 overflow-hidden p-10">
           <div className="flex justify-center lg:justify-start items-start lg:mb-5">
             <h1 className="text-3xl lg:text-5xl">Our</h1>
             <h1 className="text-3xl lg:text-5xl text-[#fb653e] lg:ml-3 ml-2">
@@ -190,11 +190,11 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-10 flex justify-around lg:justify-start">
+          <div className="my-10 flex justify-around lg:justify-start mx-10 overflow-hidden">
 
 
 
-            <div className="avatar relative flex flex-col items-center ">
+            <div className="avatar  flex flex-col items-center ">
               <div className="w-32 lg:w-32 rounded mb-3 ">
                 <Link href="./about/louisa">
                   <Image
@@ -211,7 +211,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div className="avatar relative ml-5 flex flex-col items-center">
+            <div className="avatar  ml-5 flex flex-col items-center">
               <div className="w-32 lg:w-32 rounded mb-3">
                 <Link href="./about/filipa">
                   <Image
@@ -227,7 +227,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div className="avatar relative ml-5 flex flex-col items-center">
+            <div className="avatar  ml-5 flex flex-col items-center">
               <div className="w-32 lg:w-32 rounded mb-3">
                 <Link href="./about/samantha">
                   <Image
