@@ -53,7 +53,7 @@ const Navbar = () => {
               </ul>
             </div>
 
-            <div className="flex items-center">
+            <div className="items-center hidden lg:flex">
               <Link href="/">
                 <Image
                   src={logoNavbarOrange}
@@ -64,11 +64,7 @@ const Navbar = () => {
                 />
               </Link>
 
-              {/* <Link
-                className="btn btn-ghost normal-case lg:text-lg text-md text-white lg:ml-[-20px]"
-                href="/">
-                ADMIN VIRTUOSA
-              </Link> */}
+
             </div>
           </div>
 
@@ -103,6 +99,19 @@ const Navbar = () => {
 
             {/* )} */}
           </div>
+          <div className="items-center lg:hidden flex">
+              <Link href="/">
+                <Image
+                  src={logoNavbarOrange}
+                  height={250}
+                  width={250}
+                  alt="logo"
+                  className=""
+                />
+              </Link>
+
+
+            </div>
         </div>
       </nav>
     </div>
