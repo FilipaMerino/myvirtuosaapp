@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-[#333333] w-full pr-5 h-[10rem] flex items-center">
+      <nav className="bg-[#333333] w-full pr-2 h-[10rem] flex items-center">
         <div className="navbar lg:flex lg:justify-between">
           <div className="navbar-start">
             <div className="dropdown">
@@ -72,22 +72,22 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="navbar-center hidden lg:flex lg:justify-between lg:items-center gap-6">
+          <div className="navbar-center hidden lg:flex lg:justify-between lg:items-center gap-6 mr-10 ">
             <Link
               href="/about"
-              className="link hover:text-[#f2f2ef5e] no-underline text-[15px] text-white ">
+              className="link hover:text-[#f2f2ef5e] no-underline text-[16px] text-white ">
               About
             </Link>
 
             <Link
               href="/#service"
-              className="link no-underline hover:text-[#f2f2ef5e] text-[15px] text-white ">
+              className="link no-underline hover:text-[#f2f2ef5e] text-[16px] text-white ">
               Services
             </Link>
 
             <Link
               href="/blog"
-              className="link no-underline hover:text-[#f2f2ef5e] text-[15px] text-white ">
+              className="link no-underline hover:text-[#f2f2ef5e] text-[16px] text-white ">
               Blog
             </Link>
 
