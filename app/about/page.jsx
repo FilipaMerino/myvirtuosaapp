@@ -172,7 +172,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="lg:mr-20 lg:w-[50%] p-5">
+        <div className="lg:mr-20 lg:w-[50%] p-5 w-full">
           <div className="flex justify-center lg:justify-start items-start lg:mb-5">
             <h1 className="text-3xl lg:text-5xl">Our</h1>
             <h1 className="text-3xl lg:text-5xl text-[#fb653e] lg:ml-3 ml-2">
