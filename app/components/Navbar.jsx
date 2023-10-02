@@ -74,7 +74,8 @@ const Navbar = () => {
 
                 {user && (
                   <button type="button" onClick={logout}>
-                    <Link href="/">
+                    <Link href="/"
+                    className='link no-underline hover:text-[#f2f2ef5e] text-[14px] text-white'>
                       <FiLogOut />
                     </Link>
                   </button>
