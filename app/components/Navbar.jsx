@@ -9,7 +9,6 @@ import { auth } from "../lib/firebase";
 // import { useContext } from "react";
 // import { UserContext } from "../contexts/UserContext";
 // import { signOutUser } from "../../utils/firebase/firebase.utils"
-import logoNavbar from "../../public/images/logoNavBar.png";
 import logoNavbarOrange from "../../public/images/logoNavBarOrange.png";
 
 import Image from "next/image";
