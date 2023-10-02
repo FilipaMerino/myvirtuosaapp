@@ -190,7 +190,7 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-10 flex justify-around lg:justify-start mx-10 overflow-hidden">
+          <div className="my-10 flex justify-around lg:justify-start mx-10">
 
 
 
