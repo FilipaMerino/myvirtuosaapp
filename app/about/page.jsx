@@ -9,6 +9,9 @@ import subscribe from "../../public/images/subscribe.jpeg";
 import team from "../../public/images/team.jpeg";
 import filipa from "../../public/images/filipa.jpeg";
 import LouisaPic from "../../public/images/LouisaPic.jpeg";
+import samantha from "../../public/images/samantha.png";
+
+
 import CarouselTestimonial from "../components/testimonials/CarouselTestimonial";
 import UncontrolledExample from "../components/testimonials/CarouselTestimonial";
 import ImageCarousel from "../components/testimonials/CarouselTestimonial";
@@ -219,6 +222,23 @@ const AboutPage = () => {
                 <p className="text-xs text-center">Web Developer</p>
               </div>
             </div>
+
+            <div className="avatar relative ml-5 flex flex-col items-center">
+              <div className="w-32 lg:w-32 rounded mb-3">
+                <Link href="./about/samantha">
+                  <Image
+                    src={samantha}
+                    className="transform hover:scale-105 transition-transform"
+                  alt="team"/>
+                  {/* The semi-transparent overlay */}
+                </Link>
+              </div>
+              <div className="flex flex-col items-center">
+                <p className="text-sm text-center font-semibold">Samantha Hovar</p>
+                <p className="text-xs text-center">Virtual Assistant</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
