@@ -90,7 +90,7 @@ const Samantha = () => {
         </div> */}
       </div>
 
-      <div className="bg-white lg:relative ">
+      <div className="bg-white lg:relative my-10 lg:my-0">
         <div className="lg:mx-20 lg:h-[20rem]  flex items-center  ">
           <div className="absolute top-10 left-40 hidden lg:block">
             <Image src={quotes1} className="w-32" alt="quotes" />
