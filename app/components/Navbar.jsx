@@ -19,10 +19,10 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-[#333333] w-full pr-2 h-[10rem] flex items-center">
+      <nav className="bg-[#333333] w-full lg:pr-2 h-[10rem] flex items-center">
         <div className="navbar lg:flex lg:justify-between">
           <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown ml-10">
               <label
                 tabIndex={0}
                 className="btn btn-ghost text-white lg:hidden">
@@ -99,12 +99,12 @@ const Navbar = () => {
 
             {/* )} */}
           </div>
-          <div className="items-center lg:hidden flex">
+          <div className="items-center lg:hidden flex justify-end">
               <Link href="/">
                 <Image
                   src={logoNavbarOrange}
-                  height={250}
-                  width={250}
+                  height={160}
+                  width={160}
                   alt="logo"
                   className=""
                 />
