@@ -103,7 +103,7 @@ const Testimonials = () => {
               </div>
               {user && (
                 <button
-                  className="mt-10"
+                  className="mt-5"
                   onClick={() => handleDeleteClick(testimonial.id)}>
                   <BsTrash3Fill className="hover:text-[#fb653e] text-xs" />
                 </button>
