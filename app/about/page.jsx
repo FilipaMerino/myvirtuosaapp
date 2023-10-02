@@ -190,12 +190,12 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-10 flex justify-around lg:justify-start mx-10">
+          <div className="my-10 flex justify-around lg:justify-start lg:mx-10">
 
 
 
             <div className="avatar  flex flex-col items-center ">
-              <div className="w-32 lg:w-32 rounded mb-3 ">
+              <div className="w-24 lg:w-32 rounded mb-3 ">
                 <Link href="./about/louisa">
                   <Image
                     src={LouisaPic}
@@ -212,7 +212,7 @@ const AboutPage = () => {
             </div>
 
             <div className="avatar  ml-5 flex flex-col items-center">
-              <div className="w-32 lg:w-32 rounded mb-3">
+              <div className="w-24 lg:w-32 rounded mb-3">
                 <Link href="./about/filipa">
                   <Image
                     src={filipa}
@@ -228,7 +228,7 @@ const AboutPage = () => {
             </div>
 
             <div className="avatar  ml-5 flex flex-col items-center">
-              <div className="w-32 lg:w-32 rounded mb-3">
+              <div className="w-24 lg:w-32 rounded mb-3">
                 <Link href="./about/samantha">
                   <Image
                     src={samantha}
