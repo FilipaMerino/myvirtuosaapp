@@ -67,26 +67,13 @@ const Testimonials = () => {
               className={`carousel-item relative w-full flex flex-col items-center ${
                 index === currentSlide ? "visible" : "hidden"
               }`}>
-              <div className="card  p-10 ">
-                {/* <Image
-                  src={testimonial.img}
-                  alt="testimonial"
-                  width={200}
-                  height={200}
-                /> */}
-
+              <div className="card">
                 <div className="card-body flex flex-col items-center w-[25rem]">
                   <h2 className="card-title">{testimonial.name}</h2>
                   <p className="text-xs">{testimonial.companyName}</p>
-                  <p className="text-center">
-                    {testimonial.testimonial}
-                  </p>
+                  <p className="text-center">{testimonial.testimonial}</p>
                 </div>
               </div>
-
-
-
-
 
               <div className="button-container">
                 <button
@@ -103,7 +90,7 @@ const Testimonials = () => {
               </div>
               {user && (
                 <button
-                  className="mt-5"
+                  
                   onClick={() => handleDeleteClick(testimonial.id)}>
                   <BsTrash3Fill className="hover:text-[#fb653e] text-xs" />
                 </button>
